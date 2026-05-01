@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8d61b132-d99b-443f-9a82-94a03d945df5",
+  "name": "2",
+  "symbol": "bg_2",
+  "tileColors": "",
+  "filename": "2.png",
+  "width": 45,
+  "height": 20,
+  "imageWidth": 360,
+  "imageHeight": 160,
+  "autoColor": true
+}

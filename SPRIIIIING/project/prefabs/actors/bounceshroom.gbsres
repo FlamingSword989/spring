@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "72461ab1-74e6-4a38-9e55-d59cb892c5a7",
+  "name": "BounceShroom",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "037954f2-0712-43b4-9f4b-572f1d4275a2",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "high"
+            },
+            "id": "11f6c0dc-1d52-48ce-9577-a7c4c05040da",
+            "children": {}
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "1f1bdea2-fefe-4def-9c87-885beddf7568"
+          }
+        ],
+        "false": []
+      },
+      "id": "837ea9fb-1431-4efa-9d83-0cddbdb50ca2"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

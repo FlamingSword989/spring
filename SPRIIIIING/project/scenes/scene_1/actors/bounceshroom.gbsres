@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "c37ccd35-4ce2-4ff0-ac86-0fff2569f0b2",
+  "name": "BounceShroom",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "037954f2-0712-43b4-9f4b-572f1d4275a2",
+  "prefabId": "72461ab1-74e6-4a38-9e55-d59cb892c5a7",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "1f1bdea2-fefe-4def-9c87-885beddf7568": {
+      "id": "1f1bdea2-fefe-4def-9c87-885beddf7568",
+      "args": {
+        "type": "crash",
+        "duration": 0.1,
+        "wait": false
+      }
+    },
+    "11f6c0dc-1d52-48ce-9577-a7c4c05040da": {
+      "id": "11f6c0dc-1d52-48ce-9577-a7c4c05040da",
+      "args": {
+        "height": "medium"
+      }
+    }
+  },
+  "symbol": "actor_1",
+  "script": [
+    {
+      "command": "EVENT_IF_ACTOR_RELATIVE_TO_ACTOR",
+      "args": {
+        "actorId": "player",
+        "operation": "up",
+        "otherActorId": "$self$",
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_BOUNCE",
+            "args": {
+              "height": "high"
+            },
+            "id": "4e9e6ae8-c362-46fa-926c-2e9e0c827013"
+          }
+        ],
+        "false": []
+      },
+      "id": "92d4edb1-3670-4aaf-95fa-10d0e1d737cc"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 14,
+  "y": 17,
+  "_index": 1
+}

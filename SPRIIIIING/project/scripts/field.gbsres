@@ -1,0 +1,77 @@
+{
+  "_resourceType": "script",
+  "id": "bff9385c-89ae-465d-aa71-979714c86dc6",
+  "name": "field",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_LAUNCH_PROJECTILE",
+            "args": {
+              "__section": "projectile",
+              "spriteSheetId": "66ab33af-3b90-4bff-ab3e-d95a373c4271",
+              "spriteStateId": "",
+              "actorId": "$self$",
+              "x": 0,
+              "y": -3,
+              "directionType": "target",
+              "otherActorId": "$self$",
+              "direction": "right",
+              "angle": 0,
+              "angleVariable": "L0",
+              "targetActorId": "$self$",
+              "speed": 0.25,
+              "animSpeed": 15,
+              "lifeTime": 0.1,
+              "initialOffset": 13,
+              "loopAnim": true,
+              "destroyOnHit": true,
+              "collisionGroup": "3",
+              "collisionMask": [
+                "1"
+              ],
+              "__collapse": false
+            },
+            "id": "a9168c60-4f10-46ed-8e80-7a1a86dc196c"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_CANCEL",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "03109923-58da-4fce-92df-b3fa0ef5e252"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": {
+                "type": "number",
+                "value": 0.8
+              },
+              "frames": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "91599f49-0706-4e0a-8714-1769eedab854"
+          }
+        ]
+      },
+      "id": "44021464-81ed-44b6-8181-6674d0dbea97"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "_resourceType": "actor",
+  "id": "e467b03d-db70-4080-9eaa-dde9eb131131",
+  "name": "Carrot",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "302e9e6b-aacc-4518-9eb5-dbf83ae323a5",
+  "prefabId": "e70b9f53-f97b-4807-ac9e-5ba07faca290",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 127,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8c58765b-52f9-4608-a67e-90bcd39158aa"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 6,
+        "frequency": 200,
+        "duration": 0.28,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "c84de7d5-60c4-4e44-ba9a-54ad778d8793"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 19,
+  "y": 10,
+  "_index": 0
+}
