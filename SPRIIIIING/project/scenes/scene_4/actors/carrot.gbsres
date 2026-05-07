@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_11",
+  "symbol": "actor_12",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -25,5 +25,5 @@
   "coordinateType": "tiles",
   "x": 41,
   "y": 15,
-  "_index": 2
+  "_index": 3
 }

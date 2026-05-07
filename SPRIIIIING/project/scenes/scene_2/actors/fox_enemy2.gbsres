@@ -15,7 +15,7 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_14",
+  "symbol": "actor_15",
   "script": [
     {
       "command": "EVENT_PLATFORMER_STATE_SET",
@@ -326,7 +326,7 @@
     }
   ],
   "coordinateType": "tiles",
-  "x": 56,
-  "y": 22,
-  "_index": 5
+  "x": 37,
+  "y": 17,
+  "_index": 3
 }
