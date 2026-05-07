@@ -1,21 +1,17 @@
 {
-  "_resourceType": "actor",
-  "id": "ccbe3967-6f3f-4c1a-9cba-7d5847ca4637",
+  "_resourceType": "actorPrefab",
+  "id": "a322d18e-d79d-48cf-a2a2-e92632442f55",
   "name": "enable wall jump",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-  "prefabId": "a322d18e-d79d-48cf-a2a2-e92632442f55",
-  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
-  "isPinned": false,
   "persistent": false,
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -26,23 +22,21 @@
           "value": 1
         }
       },
-      "id": "ba68af7e-9541-4a81-b1ef-627299b94838"
+      "id": "81e6edc2-059e-4353-b4c2-c6e44e708b9d",
+      "children": {}
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "19af1e78-cbd8-4c00-a60c-5d4252ceaaa0"
+      "id": "47b6e044-bcf9-4222-ba6b-69851616ec79",
+      "children": {}
     }
   ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "coordinateType": "tiles",
-  "x": 2,
-  "y": 17,
-  "_index": 5
+  "hit3Script": []
 }

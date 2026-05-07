@@ -106,7 +106,7 @@
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
-        "__section": "movement",
+        "__section": "options",
         "actorId": "$self$",
         "x": {
           "type": "number",
@@ -117,8 +117,7 @@
           "value": 0
         },
         "collideWith": [
-          "walls",
-          "actors"
+          "walls"
         ],
         "lockDirection": [],
         "moveType": "horizontal",
@@ -145,7 +144,7 @@
     {
       "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
-        "__section": "movement",
+        "__section": "options",
         "actorId": "$self$",
         "x": {
           "type": "number",
@@ -156,8 +155,7 @@
           "value": 0
         },
         "collideWith": [
-          "walls",
-          "actors"
+          "walls"
         ],
         "lockDirection": [],
         "moveType": "horizontal",

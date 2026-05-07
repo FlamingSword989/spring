@@ -14,21 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {
-    "73748954-e0b7-414d-9fd2-79d88ad3c724": {
-      "id": "73748954-e0b7-414d-9fd2-79d88ad3c724",
-      "args": {
-        "x": {
-          "type": "number",
-          "value": 3
-        },
-        "y": {
-          "type": "number",
-          "value": 2
-        }
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_5",
   "script": [],
   "startScript": [

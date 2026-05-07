@@ -29,15 +29,7 @@
   "symbol": "scene_1",
   "x": 272,
   "y": 136,
-  "script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "bff9385c-89ae-465d-aa71-979714c86dc6"
-      },
-      "id": "bb44c2a3-f9d8-4a46-8652-f84425319250"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
