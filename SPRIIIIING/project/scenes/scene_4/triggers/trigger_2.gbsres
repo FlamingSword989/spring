@@ -1,0 +1,80 @@
+{
+  "_resourceType": "trigger",
+  "id": "37682c0a-dcf5-45e8-a6c0-f0cace4b47cb",
+  "name": "",
+  "prefabId": "",
+  "x": 62,
+  "y": 0,
+  "symbol": "trigger_4",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 23,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "bfed779d-019a-41de-9cff-758f0003d705"
+            },
+            "id": "f5fa265a-5f82-4557-a537-475a406efb29"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Máthair Shúigh: Hello little Rabbit!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3f779b8e-ae96-47d2-bc71-7437650891ad"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "618b76d2-1601-446b-a8d1-370252cd540f"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea6bcb2e-5a9b-4fa5-b486-06cd26e0614d"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

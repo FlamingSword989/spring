@@ -14,8 +14,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 107.20000076293945,
-  "y": 278,
+  "x": 60,
+  "y": 504,
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -63,14 +63,14 @@
           {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "sceneId": "682ae703-4ced-421b-8891-6d875091d277",
+              "sceneId": "7ba9c3da-eb8d-444f-a4aa-466d50ff03a0",
               "x": {
                 "type": "number",
-                "value": 45
+                "value": 3
               },
               "y": {
                 "type": "number",
-                "value": 20
+                "value": 16
               },
               "direction": "",
               "fadeSpeed": "2"
