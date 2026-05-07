@@ -3,7 +3,7 @@
   "id": "37682c0a-dcf5-45e8-a6c0-f0cace4b47cb",
   "name": "",
   "prefabId": "",
-  "x": 62,
+  "x": 61,
   "y": 0,
   "symbol": "trigger_4",
   "prefabScriptOverrides": {},
@@ -23,22 +23,30 @@
             "type": "false"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "bfed779d-019a-41de-9cff-758f0003d705"
+              "musicId": "54d82e8e-4eb3-4f20-bcef-2e2c9c01d019"
             },
             "id": "f5fa265a-5f82-4557-a537-475a406efb29"
+          },
+          {
+            "command": "EVENT_PLATFORMER_STATE_SET",
+            "args": {
+              "state": "ground",
+              "__collapse": false
+            },
+            "id": "1bfea72a-6771-4246-9a11-3c0ece1484c8"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Máthair Shúigh: Hello little Rabbit!"
+                "Máthair Shúigh: \nHello little Rabbit!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -68,6 +76,17 @@
               }
             },
             "id": "618b76d2-1601-446b-a8d1-370252cd540f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "eced4bda-c620-4f6b-96c8-83192c66cdc8"
           }
         ],
         "false": []

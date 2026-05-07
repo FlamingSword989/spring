@@ -5,6 +5,21 @@
       "id": "0",
       "name": "HP",
       "symbol": "var_hp"
+    },
+    {
+      "id": "1",
+      "name": "Wall Jump",
+      "symbol": "var_wall_jump"
+    },
+    {
+      "id": "2",
+      "name": "Global1",
+      "symbol": "var_global1"
+    },
+    {
+      "id": "3",
+      "name": "DMGcd",
+      "symbol": "var_dmgcd"
     }
   ],
   "constants": []
