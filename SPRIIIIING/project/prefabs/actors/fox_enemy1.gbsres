@@ -181,15 +181,15 @@
     }
   ],
   "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [
+  "hit2Script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "6789f261-e4d7-4554-8c9a-abb92d5fd56c",
+      "id": "a41ac482-c0f3-40ce-81b8-07484e735351",
       "children": {}
     }
-  ]
+  ],
+  "hit3Script": []
 }

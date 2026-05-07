@@ -314,17 +314,17 @@
     }
   ],
   "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [
+  "hit2Script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
-      "id": "04d03392-c43b-42c5-84fa-0723145e32b8",
+      "id": "74b5c7c0-f106-4e83-89b5-f646485b4b06",
       "children": {}
     }
   ],
+  "hit3Script": [],
   "coordinateType": "tiles",
   "x": 37,
   "y": 17,

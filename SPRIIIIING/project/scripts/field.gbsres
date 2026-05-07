@@ -15,7 +15,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -40,7 +40,7 @@
               "initialOffset": 13,
               "loopAnim": true,
               "destroyOnHit": true,
-              "collisionGroup": "3",
+              "collisionGroup": "2",
               "collisionMask": [
                 "1",
                 "2",
