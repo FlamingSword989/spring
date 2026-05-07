@@ -12,11 +12,19 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_3",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ec69f053-de6a-4c7e-a2fe-717146ea5975"
+      },
+      "id": "2b7522fd-ae67-4345-9af3-b7489680e329"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_ACTOR_STOP_UPDATE",
@@ -53,7 +61,7 @@
     {
       "command": "EVENT_LAUNCH_PROJECTILE",
       "args": {
-        "__section": "source",
+        "__section": "projectile",
         "spriteSheetId": "eaff9152-2f97-4940-96cf-a546549ce7f0",
         "spriteStateId": "",
         "actorId": "$self$",

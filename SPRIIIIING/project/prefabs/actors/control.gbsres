@@ -38,7 +38,8 @@
         "y": {
           "type": "number",
           "value": 2
-        }
+        },
+        "__comment": false
       },
       "id": "73748954-e0b7-414d-9fd2-79d88ad3c724"
     },

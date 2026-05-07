@@ -1,0 +1,97 @@
+{
+  "_resourceType": "script",
+  "id": "ec69f053-de6a-4c7e-a2fe-717146ea5975",
+  "name": "Player Damaged",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_PLATFORMER_STATE_SET",
+      "args": {
+        "state": "knockback"
+      },
+      "id": "be8b3b6c-0371-4167-bc80-dc78614a590f",
+      "children": {}
+    },
+    {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "0",
+        "expression": "$00$ - 1"
+      },
+      "id": "a7eeadcf-08ff-4a80-a95b-60a7a8bdf91f",
+      "children": {}
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.2,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "af1dcf19-12d3-4112-807c-94af5a4cd2e5",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "094db034-0207-4705-a86f-67116efaf9e1",
+      "children": {}
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0b831d0b-5b19-4aec-9f32-b9001a1400e8",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "acc926f4-7e27-41eb-a5ac-6e79b6c39c5e",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "f80f8d3c-6aae-4c85-b7c3-d881d6592968"
+    }
+  ]
+}
