@@ -25,14 +25,14 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "ne",
+          "type": "eq",
           "valueA": {
             "type": "variable",
             "value": "0"
           },
           "valueB": {
             "type": "number",
-            "value": 3
+            "value": 0
           }
         },
         "__collapseElse": true
@@ -43,7 +43,7 @@
             "command": "EVENT_VARIABLE_MATH_EVALUATE",
             "args": {
               "variable": "0",
-              "expression": "$00$ + 1"
+              "expression": ""
             },
             "id": "45aa3584-e51b-4908-bec2-5786de82ee61"
           }
