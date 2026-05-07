@@ -9,7 +9,16 @@
   "height": 20,
   "type": "PLATFORM",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "53afe1fe-b4ea-4116-b7eb-44a05c17e962",
+    "94d13fc0-e68a-4258-9e88-729073a18b9e",
+    "66d55ff0-0f53-4d2d-ab8b-cc90532e1524",
+    "866144e1-c2f9-4672-974f-e4e1f6738a54",
+    "278531b4-a519-48b1-8967-ff005b2f420c",
+    "278531b4-a519-48b1-8967-ff005b2f420c",
+    "278531b4-a519-48b1-8967-ff005b2f420c",
+    "default-ui"
+  ],
   "spritePaletteIds": [
     "18ab2a16-2d90-4990-a094-dbfbdaf8ab25",
     "7f580879-4c6b-4a65-b769-beb4d341ba41",

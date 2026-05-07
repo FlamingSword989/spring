@@ -22,6 +22,37 @@
       "children": {}
     },
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "0",
+              "expression": ""
+            },
+            "id": "45aa3584-e51b-4908-bec2-5786de82ee61"
+          }
+        ],
+        "false": []
+      },
+      "id": "3b356f98-6597-4224-a58e-34ea650c7974"
+    },
+    {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
         "type": "crash",

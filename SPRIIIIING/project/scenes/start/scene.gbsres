@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "0b831d0b-5b19-4aec-9f32-b9001a1400e8",
   "_index": 2,
-  "name": "Scene 3",
+  "name": "Start",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -17,6 +17,13 @@
   "x": 107.20000076293945,
   "y": 278,
   "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc7560df-a370-4bc1-bd7e-a73d97aae388"
+      },
+      "id": "ff986df9-7dfb-429f-a45b-7067bf7e1dd7"
+    },
     {
       "command": "EVENT_MENU",
       "args": {

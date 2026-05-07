@@ -1,5 +1,11 @@
 {
   "_resourceType": "variables",
-  "variables": [],
+  "variables": [
+    {
+      "id": "0",
+      "name": "HP",
+      "symbol": "var_hp"
+    }
+  ],
   "constants": []
 }

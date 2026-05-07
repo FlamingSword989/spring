@@ -28,6 +28,12 @@
       "args": {
         "height": "medium"
       }
+    },
+    "fc734286-2186-45c1-8613-bf0af4d9f662": {
+      "id": "fc734286-2186-45c1-8613-bf0af4d9f662",
+      "args": {
+        "location": "background"
+      }
     }
   },
   "symbol": "actor_1",

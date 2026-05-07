@@ -1,0 +1,32 @@
+{
+  "_resourceType": "scene",
+  "id": "682ae703-4ced-421b-8891-6d875091d277",
+  "_index": 3,
+  "name": "Scene 4",
+  "backgroundId": "c3ea6700-e45e-444a-a74a-56f42207fb5e",
+  "tilesetId": "",
+  "width": 70,
+  "height": 25,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "53afe1fe-b4ea-4116-b7eb-44a05c17e962",
+    "ff7f0c99-19a8-4b56-b01f-999fced369fc",
+    "6b622afc-a331-482a-899c-a1f34e919fa8",
+    "66d55ff0-0f53-4d2d-ab8b-cc90532e1524",
+    "64402201-f23e-47a9-9fc0-9bb241119a24",
+    "278531b4-a519-48b1-8967-ff005b2f420c",
+    "278531b4-a519-48b1-8967-ff005b2f420c",
+    "default-ui"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "0031f+0f3+0043+0f!00!0f!0043+0f3+00120+0f3+0041+0f3+00!0f!0030+0f3+00e+0f!00!0f!00!0f!0030+0f!00!0f!00e+0f!00!0f!00!0f!002e+0f3+00!0f!00e+0f!00!0f!00!0f!002e+0f!00!0f!00!0f!00e+0f!00!0f!00!0f!001b+0f10+002+0f34+00f+0f!002+0f!0033+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 399.7959187825521,
+  "y": 337.3393147786458,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
