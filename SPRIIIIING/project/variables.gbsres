@@ -5,6 +5,11 @@
       "id": "0",
       "name": "HP",
       "symbol": "var_hp"
+    },
+    {
+      "id": "1",
+      "name": "wall jump",
+      "symbol": "var_wall_jump"
     }
   ],
   "constants": []

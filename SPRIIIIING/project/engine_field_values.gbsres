@@ -36,6 +36,22 @@
     {
       "id": "FEAT_PLATFORM_WALL_JUMP",
       "value": 1
+    },
+    {
+      "id": "plat_jump_vel",
+      "value": 14336
+    },
+    {
+      "id": "plat_walk_vel",
+      "value": 5939
+    },
+    {
+      "id": "plat_wall_slide",
+      "value": 0
+    },
+    {
+      "id": "plat_wall_jump_max",
+      "value": 0
     }
   ]
 }

@@ -19,14 +19,15 @@
         "actorId": "player",
         "operation": "up",
         "otherActorId": "$self$",
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
           {
             "command": "EVENT_PLAYER_BOUNCE",
             "args": {
-              "height": "high"
+              "height": "medium"
             },
             "id": "11f6c0dc-1d52-48ce-9577-a7c4c05040da",
             "children": {}
@@ -34,11 +35,11 @@
           {
             "command": "EVENT_SOUND_PLAY_EFFECT",
             "args": {
-              "type": "beep",
+              "type": "crash",
               "priority": "medium",
               "pitch": 4,
               "frequency": 200,
-              "duration": 0.5,
+              "duration": 0.1,
               "wait": false,
               "effect": 0
             },
