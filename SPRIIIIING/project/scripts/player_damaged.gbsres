@@ -25,6 +25,19 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_EFFECTS",
+            "args": {
+              "effect": "flicker",
+              "actorId": "$self$",
+              "distance": 20,
+              "speed": 2,
+              "time": 0.3,
+              "frames": 30,
+              "__comment": true
+            },
+            "id": "bf698ced-fe46-4406-93d1-908c78422334"
+          },
+          {
             "command": "EVENT_PLATFORMER_STATE_SET",
             "args": {
               "state": "knockback",
@@ -63,7 +76,7 @@
               "duration": 0.2,
               "wait": false,
               "effect": 0,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "af1dcf19-12d3-4112-807c-94af5a4cd2e5",
             "children": {}

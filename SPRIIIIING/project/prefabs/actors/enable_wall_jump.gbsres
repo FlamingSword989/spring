@@ -66,7 +66,15 @@
       "children": {}
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "51df651d-af7d-4dda-9061-152cfc40f141"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

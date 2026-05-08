@@ -255,7 +255,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -313,7 +314,7 @@
                   "args": {
                     "effect": "splitIn",
                     "actorId": "$self$",
-                    "distance": 5,
+                    "distance": 8,
                     "speed": 2,
                     "time": 0.4,
                     "frames": 30
@@ -370,6 +371,13 @@
                           "actorId": "$self$"
                         },
                         "id": "17291662-19e6-46e3-a9a7-d2bd39b00bf6"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_ACTIVATE",
+                        "args": {
+                          "actorId": "debbe798-e6ed-4e8c-af4e-9f6e2e91fc37"
+                        },
+                        "id": "6be21634-4a08-45fd-ad27-e4dc42cb4623"
                       }
                     ],
                     "false": []
@@ -389,7 +397,7 @@
   ],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 65,
+  "x": 66,
   "y": 22,
   "_index": 0
 }
