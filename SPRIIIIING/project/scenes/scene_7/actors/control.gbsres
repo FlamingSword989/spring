@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "b62f9208-8741-403f-8b19-3c53bc7fb0cd",
+  "id": "10c84011-71e7-467e-946f-e2903ef989e4",
   "name": "Control",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_5",
+  "symbol": "actor_25",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -24,6 +24,6 @@
   "hit3Script": [],
   "coordinateType": "tiles",
   "x": 4,
-  "y": 4,
-  "_index": 2
+  "y": 9,
+  "_index": 3
 }

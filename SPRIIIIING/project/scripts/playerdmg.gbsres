@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "ec69f053-de6a-4c7e-a2fe-717146ea5975",
-  "name": "Player Damaged",
+  "name": "PlayerDMG",
   "description": "",
   "variables": {},
   "actors": {},
@@ -27,13 +27,13 @@
           {
             "command": "EVENT_ACTOR_EFFECTS",
             "args": {
-              "effect": "flicker",
+              "effect": "splitIn",
               "actorId": "$self$",
-              "distance": 20,
+              "distance": 4,
               "speed": 2,
               "time": 0.3,
               "frames": 30,
-              "__comment": true
+              "__comment": false
             },
             "id": "bf698ced-fe46-4406-93d1-908c78422334"
           },

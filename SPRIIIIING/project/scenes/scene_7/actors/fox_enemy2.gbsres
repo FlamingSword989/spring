@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "3b4a9da6-7340-4cc2-91a0-0e029c91bcf9",
+  "id": "18ca9601-7ea5-480e-909b-d2ec0fed615c",
   "name": "Fox enemy1",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_9",
+  "symbol": "actor_18",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 11,
-  "y": 17,
-  "_index": 5
+  "x": 8,
+  "y": 22,
+  "_index": 1
 }

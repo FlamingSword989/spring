@@ -3,7 +3,7 @@
   "id": "37682c0a-dcf5-45e8-a6c0-f0cace4b47cb",
   "name": "",
   "prefabId": "",
-  "x": 61,
+  "x": 59,
   "y": 0,
   "symbol": "trigger_4",
   "prefabScriptOverrides": {},
@@ -30,7 +30,8 @@
           {
             "command": "EVENT_MUSIC_PLAY",
             "args": {
-              "musicId": "54d82e8e-4eb3-4f20-bcef-2e2c9c01d019"
+              "musicId": "54d82e8e-4eb3-4f20-bcef-2e2c9c01d019",
+              "__collapse": true
             },
             "id": "f5fa265a-5f82-4557-a537-475a406efb29"
           },
