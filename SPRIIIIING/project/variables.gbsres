@@ -20,6 +20,16 @@
       "id": "3",
       "name": "DMGcd",
       "symbol": "var_dmgcd"
+    },
+    {
+      "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L0",
+      "name": "cd",
+      "symbol": "var_cd"
+    },
+    {
+      "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L1",
+      "name": "hp",
+      "symbol": "var_hp_0"
     }
   ],
   "constants": []

@@ -1,31 +1,98 @@
 {
   "_resourceType": "trigger",
-  "id": "3e8c09db-e271-4fa6-86d2-edd90803acbe",
+  "id": "37682c0a-dcf5-45e8-a6c0-f0cace4b47cb",
   "name": "",
   "prefabId": "",
-  "x": 0,
+  "x": 59,
   "y": 0,
-  "symbol": "trigger_3",
+  "symbol": "trigger_4",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 25,
+  "height": 23,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "fc009a17-5291-4487-a5e0-20f28390ca39",
-        "x": {
-          "type": "number",
-          "value": 47
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "false"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 22
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "acc163a1-26ec-4fda-acf6-1e1d739dbdf6"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "54d82e8e-4eb3-4f20-bcef-2e2c9c01d019",
+              "__collapse": true
+            },
+            "id": "f5fa265a-5f82-4557-a537-475a406efb29"
+          },
+          {
+            "command": "EVENT_PLATFORMER_STATE_SET",
+            "args": {
+              "state": "ground",
+              "__collapse": false
+            },
+            "id": "1bfea72a-6771-4246-9a11-3c0ece1484c8"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Máthair Shúigh: \nHello little Rabbit!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3f779b8e-ae96-47d2-bc71-7437650891ad"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "618b76d2-1601-446b-a8d1-370252cd540f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "eced4bda-c620-4f6b-96c8-83192c66cdc8"
+          }
+        ],
+        "false": []
+      },
+      "id": "ea6bcb2e-5a9b-4fa5-b486-06cd26e0614d"
     }
   ],
   "leaveScript": [],

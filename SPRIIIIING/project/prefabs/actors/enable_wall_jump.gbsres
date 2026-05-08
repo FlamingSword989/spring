@@ -14,9 +14,23 @@
   "prefabScriptOverrides": {},
   "script": [
     {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "beep",
+        "priority": "medium",
+        "pitch": 7,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "e73dfcbc-4efb-4319-bd52-e9d69930d873"
+    },
+    {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "6c24fea5-e96c-4cfd-8a46-3e57330a43a2"
     },
