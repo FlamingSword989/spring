@@ -4,15 +4,47 @@
   "name": "enable wall jump",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
+  "spriteSheetId": "5985b38a-7b27-4477-9f21-f57461d31d12",
   "moveSpeed": 1,
-  "animSpeed": 15,
+  "animSpeed": 3,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "6c24fea5-e96c-4cfd-8a46-3e57330a43a2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Wall Jump Unlocked!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bd9bce1e-b0ab-4fab-befc-44bc8b0f23c1"
+    },
     {
       "command": "EVENT_SET_VALUE",
       "args": {

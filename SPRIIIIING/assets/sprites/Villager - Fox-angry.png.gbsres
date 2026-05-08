@@ -7,7 +7,7 @@
     {
       "id": "79ac9425-6aa9-4e3d-9c08-6d0c13d27b25",
       "name": "",
-      "animationType": "multi_movement",
+      "animationType": "horizontal_movement",
       "flipLeft": true,
       "animations": [
         {

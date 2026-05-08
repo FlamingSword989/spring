@@ -7,7 +7,7 @@
     {
       "id": "cb5a7713-8b42-47c7-8dc4-9524e022f787",
       "name": "",
-      "animationType": "platform_player",
+      "animationType": "horizontal_movement",
       "flipLeft": true,
       "animations": [
         {
