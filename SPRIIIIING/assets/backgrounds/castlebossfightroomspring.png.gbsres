@@ -1,0 +1,14 @@
+{
+  "_resourceType": "background",
+  "id": "35fdb80b-0853-4594-9cd5-98dde5da9d10",
+  "name": "castlebossfightroomspring",
+  "symbol": "bg_castlebossfightroomsprin",
+  "tileColors": "0028d+016+0020+016+006+016+0020+016+006+016+0020+016+006+016+0020+016+006+016+0020+016+006+016+0020+016+003+01c+026+03!01c+027+0118+007+01c+007+0118+007+01c+007+0118+007+01c+007+0118+007+01c+007+0118+007+01c+007+01c+",
+  "filename": "castlebossfightroomspring.png",
+  "width": 50,
+  "height": 25,
+  "imageWidth": 400,
+  "imageHeight": 200,
+  "monoOverrideId": "cd31ca83-e683-45be-b2b1-23f33a9337fd",
+  "autoColor": false
+}
