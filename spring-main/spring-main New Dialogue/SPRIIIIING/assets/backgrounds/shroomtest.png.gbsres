@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8c17774c-7f70-47bc-9c69-6f6aa4f9989d",
+  "name": "shroomtest",
+  "symbol": "bg_shroomtest",
+  "tileColors": "",
+  "filename": "shroomtest.png",
+  "width": 70,
+  "height": 25,
+  "imageWidth": 560,
+  "imageHeight": 200,
+  "autoColor": true
+}

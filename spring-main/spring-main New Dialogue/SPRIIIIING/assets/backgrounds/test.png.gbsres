@@ -1,0 +1,14 @@
+{
+  "_resourceType": "background",
+  "id": "cdccd18f-3c9d-489e-9ef0-26115316ba8d",
+  "name": "test",
+  "symbol": "bg_test",
+  "tileColors": "00177+015+00a+012+009+01b+008+014+003+01b+023+013+003+0115+02!01!02!0119+023+03!02!0119+02!03!02!01!02!019+021e+01!034+01!033+01!039+01!033+01!036+",
+  "filename": "test.png",
+  "width": 30,
+  "height": 20,
+  "imageWidth": 240,
+  "imageHeight": 160,
+  "autoColor": false,
+  "monoOverrideId": "2c367eba-2b38-4112-9cf8-8ac5c67bb813"
+}
