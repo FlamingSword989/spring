@@ -1,0 +1,14 @@
+{
+  "_resourceType": "background",
+  "id": "ff55d799-3408-41dc-a474-22f8b5788ce2",
+  "name": "mathaircastle3",
+  "symbol": "bg_mathaircastle3",
+  "tileColors": "002cf+028+002a+028+002a+028+002a+028+002a+028+002a+028+0018+022+00!022+00!022+00!022+00!022+00!022+00!028+00!022+00!022+00!022+00!022+00!022+00!022+00!022+00!02!00!022+00!022+00!022+00!022+00!022+00!022+00!028+00!022+00!022+00!022+00!022+00!022+00!022+00!022+00!0297+",
+  "filename": "mathaircastle3.png",
+  "width": 50,
+  "height": 25,
+  "imageWidth": 400,
+  "imageHeight": 200,
+  "monoOverrideId": "b934ccaf-045a-4f77-99fa-0483219361a5",
+  "autoColor": false
+}

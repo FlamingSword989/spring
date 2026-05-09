@@ -22,7 +22,30 @@
       "id": "583e0d64-f356-4979-bd43-4a54cdce13ad"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "L0",
+        "flag": 0,
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "00a14304-ef80-4fc3-95e5-fe1627ea5d8e"
+          }
+        ],
+        "false": []
+      },
+      "id": "76741c0c-62b9-45bf-b69f-170d6dd10bb6"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_IF_ACTOR_DISTANCE_FROM_ACTOR",
@@ -54,7 +77,7 @@
               "operation": "left",
               "otherActorId": "$self$",
               "__collapseElse": false,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -297,6 +320,30 @@
         "effect": 0
       },
       "id": "e70f1f8a-9755-4b1e-ae42-2b4cb8cba2de"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "L0",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "950d67b1-0aff-4b97-864a-5a6030fa7b8d"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

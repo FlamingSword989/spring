@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "11b53060-0ddf-49b9-9437-6c4a3c56c811",
+  "name": "shroom4",
+  "symbol": "bg_shroom4",
+  "tileColors": "",
+  "filename": "shroom4.png",
+  "width": 75,
+  "height": 25,
+  "imageWidth": 600,
+  "imageHeight": 200,
+  "autoColor": true
+}

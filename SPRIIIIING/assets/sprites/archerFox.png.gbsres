@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "84781028-7ed7-4aac-8207-0ab3f0a3c07a",
+  "name": "archerFox",
+  "symbol": "sprite_archerfox",
+  "states": [
+    {
+      "id": "03db7042-fd22-47d1-b7c6-2485d9d24b0d",
+      "name": "",
+      "animationType": "horizontal_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "e12cbec8-3d0f-46cf-941f-8f6e56383781",
+          "frames": [
+            {
+              "id": "cc3f521d-182e-4120-84b2-de52cdfb5668",
+              "tiles": [
+                {
+                  "id": "5ad2629e-25fe-4828-8d38-654304295402",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 3,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "4ba97389-f1eb-4240-8707-34dd9d4ffb42",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 3,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "f6f81206-7236-4333-9e16-4612514c47de",
+              "tiles": [
+                {
+                  "id": "fd120333-9779-4fd9-a599-518a05b25a4b",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 3,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "17971468-705a-4a5e-9640-8bfacc69ba50",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 3,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "e8a0f051-363d-46aa-ae08-fbde8e475ae4",
+          "frames": [
+            {
+              "id": "f11a0eeb-bd4d-4d91-82ce-333f4447ee97",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "070560b6-04b7-46cd-9548-55820f610ba6",
+          "frames": [
+            {
+              "id": "b975e5b5-5c6c-4706-85fd-739a84c14cb9",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f963ad02-3816-44d8-b669-434b2db82e41",
+          "frames": [
+            {
+              "id": "24dfb195-d793-46fd-b176-cc4f070cd8c0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20dcba5f-baeb-4773-983c-f4ce2983356c",
+          "frames": [
+            {
+              "id": "918fa856-6dab-425e-bc4f-2313aba928f8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6764a4f2-33f2-4879-b40a-b70f6c5975fc",
+          "frames": [
+            {
+              "id": "c5a8fd7c-0981-4e3f-a7c0-81a9ee15ec0b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0932efd7-ddfd-457c-ad35-05ac4f46c7a5",
+          "frames": [
+            {
+              "id": "92c00718-368e-493a-b97b-e3de0f5f9988",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4e7a9361-2995-4d29-ace3-8aff4c09b2f4",
+          "frames": [
+            {
+              "id": "8cdad212-24ef-46f6-bf06-a55fa0842f2f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "archerFox.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "127fef7ddd3dd88f3e851ad9c453d2f72446176d"
+}

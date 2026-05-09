@@ -14,7 +14,15 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "1f1bdea2-fefe-4def-9c87-885beddf7568": {
+      "id": "1f1bdea2-fefe-4def-9c87-885beddf7568",
+      "args": {
+        "pitch": 6,
+        "duration": 0.05
+      }
+    }
+  },
   "symbol": "actor_2",
   "script": [],
   "startScript": [],

@@ -18,7 +18,15 @@
   "symbol": "scene_21",
   "x": 1838.3722442925575,
   "y": 941.1665002252041,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_PLATFORMER_STATE_SET",
+      "args": {
+        "state": "blank"
+      },
+      "id": "f528c46e-b53b-49f2-b306-87b21d2e5d9c"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

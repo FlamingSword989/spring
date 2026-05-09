@@ -55,11 +55,11 @@
     {
       "command": "EVENT_SOUND_PLAY_EFFECT",
       "args": {
-        "type": "crash",
+        "type": "beep",
         "priority": "medium",
-        "pitch": 6,
+        "pitch": 8,
         "frequency": 200,
-        "duration": 0.28,
+        "duration": 0.07,
         "wait": false,
         "effect": 0
       },

@@ -50,6 +50,11 @@
       "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L1",
       "name": "hp",
       "symbol": "var_hp_0"
+    },
+    {
+      "id": "8",
+      "name": "Checkpoint",
+      "symbol": "var_checkpoint"
     }
   ],
   "constants": []

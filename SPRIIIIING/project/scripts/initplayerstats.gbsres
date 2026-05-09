@@ -38,6 +38,28 @@
         }
       },
       "id": "7b0f379e-0fd1-4347-b5a0-c47333626238"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "ea3662fd-9e8d-4ddc-b643-2729d19790a5"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "8",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "0a906699-95f9-4293-a31b-bb0d03bb7ef1"
     }
   ]
 }

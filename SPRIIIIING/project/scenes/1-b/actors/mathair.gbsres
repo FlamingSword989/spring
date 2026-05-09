@@ -108,7 +108,7 @@
               "collisionMask": [
                 "player"
               ],
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2e925f5d-b24b-44e2-8b53-347492ce81d5"
           },
@@ -393,11 +393,15 @@
                         "id": "64fe3a6b-fe0b-4943-a30f-75b722670282"
                       },
                       {
-                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "command": "EVENT_SET_VALUE",
                         "args": {
-                          "actorId": "$self$"
+                          "variable": "8",
+                          "value": {
+                            "type": "number",
+                            "value": 2
+                          }
                         },
-                        "id": "17291662-19e6-46e3-a9a7-d2bd39b00bf6"
+                        "id": "357dda05-1b30-418f-b8e5-ea2d0f6fc2a9"
                       },
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
@@ -405,6 +409,13 @@
                           "actorId": "debbe798-e6ed-4e8c-af4e-9f6e2e91fc37"
                         },
                         "id": "6be21634-4a08-45fd-ad27-e4dc42cb4623"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "$self$"
+                        },
+                        "id": "17291662-19e6-46e3-a9a7-d2bd39b00bf6"
                       }
                     ],
                     "false": []

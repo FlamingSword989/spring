@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 33,
-  "y": 1,
+  "y": 2,
   "symbol": "trigger_26",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -24,7 +24,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -57,7 +57,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Very well! Take up\nyour sword! Let us have\nan honorable duel!"
+                "Very well! Take up\nyour sword! Let us \nhave an honorable duel!"
               ],
               "__section": "text",
               "avatarId": "",

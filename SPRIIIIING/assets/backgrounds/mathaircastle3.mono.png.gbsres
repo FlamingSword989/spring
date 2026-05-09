@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b934ccaf-045a-4f77-99fa-0483219361a5",
+  "name": "mathaircastle3.mono",
+  "symbol": "bg_mathaircastle3_mono",
+  "tileColors": "",
+  "filename": "mathaircastle3.mono.png",
+  "width": 50,
+  "height": 25,
+  "imageWidth": 400,
+  "imageHeight": 200
+}
