@@ -13,14 +13,14 @@
     "278531b4-a519-48b1-8967-ff005b2f420c"
   ],
   "spritePaletteIds": [
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg",
-    "dmg"
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
   ],
   "collisions": "002d0+",
   "autoFadeSpeed": 1,
