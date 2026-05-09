@@ -26,13 +26,7 @@
   "symbol": "scene_6",
   "x": 512,
   "y": 496,
-  "script": [
-    {
-      "command": "EVENT_MUSIC_STOP",
-      "args": {},
-      "id": "122208db-c467-4734-9542-57ef815ddf77"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
