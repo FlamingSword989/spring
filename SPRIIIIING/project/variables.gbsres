@@ -33,13 +33,13 @@
     },
     {
       "id": "4",
-      "name": "Quest",
-      "symbol": "var_quest"
+      "name": "Arrow",
+      "symbol": "var_arrow"
     },
     {
       "id": "5",
-      "name": "FinalFightStarrt",
-      "symbol": "var_finalfightstarrt"
+      "name": "ATKcd",
+      "symbol": "var_atkcd"
     }
   ],
   "constants": []

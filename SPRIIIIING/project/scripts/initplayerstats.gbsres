@@ -14,7 +14,8 @@
         "value": {
           "type": "number",
           "value": 3
-        }
+        },
+        "__collapse": true
       },
       "id": "d3976dca-7ed9-4cf5-bcba-4f51c04ba4be"
     },
@@ -24,7 +25,8 @@
         "variable": "3",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "2fe82b65-4c33-447a-8e30-2ec384e6a3c0"
     },
@@ -35,9 +37,32 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "7b0f379e-0fd1-4347-b5a0-c47333626238"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 0
+        },
+        "__collapse": true
+      },
+      "id": "f3501141-ee7e-4d80-86a7-6bf8159fd032"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "5",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "ed118b3d-da4e-4451-9eff-ae0484c48d70"
     }
   ]
 }

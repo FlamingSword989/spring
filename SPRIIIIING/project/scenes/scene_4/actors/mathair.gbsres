@@ -12,7 +12,7 @@
   "paletteId": "",
   "isPinned": false,
   "persistent": false,
-  "collisionGroup": "",
+  "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_3",
@@ -53,8 +53,7 @@
             "value": 1
           }
         },
-        "__collapseElse": false,
-        "__collapse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
@@ -230,8 +229,8 @@
             "value": 0
           }
         },
-        "__collapseElse": false,
-        "__collapse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [],

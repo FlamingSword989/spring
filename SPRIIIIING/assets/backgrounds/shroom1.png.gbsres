@@ -10,5 +10,5 @@
   "imageWidth": 600,
   "imageHeight": 200,
   "monoOverrideId": "2a094854-e1fd-41ca-bfa7-aee8a4b60d57",
-  "autoColor": true
+  "autoColor": false
 }
