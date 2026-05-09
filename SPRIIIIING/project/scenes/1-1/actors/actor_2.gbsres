@@ -46,7 +46,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Who am I? I am the great\ntroubadour, Springmunt.\nAnd I come to tell your\ntale!"
+          "Who am I? I am the \ngreat troubadour, \nSpringmunt.\nAnd I come to tell your\ntale!"
         ],
         "__section": "text",
         "avatarId": "",

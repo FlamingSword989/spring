@@ -55,6 +55,11 @@
       "id": "8",
       "name": "Checkpoint",
       "symbol": "var_checkpoint"
+    },
+    {
+      "id": "0b831d0b-5b19-4aec-9f32-b9001a1400e8__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ],
   "constants": []
