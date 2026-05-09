@@ -1,0 +1,184 @@
+{
+  "_resourceType": "actor",
+  "id": "a92a508e-f0d3-466e-b700-5aea26651f3a",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "5e922e37-8850-43cc-b8cf-48b27e960c91",
+  "prefabId": "",
+  "direction": "left",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_74",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Shuigh: You damned\ntoadstool! I shall\nburn you to a crisp!\nThis forest is mine!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9b2a55eb-f355-413b-a981-bf3efaf63849"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_STATE",
+      "args": {
+        "actorId": "a92a508e-f0d3-466e-b700-5aea26651f3a",
+        "spriteStateId": "Purple_Attack",
+        "loopAnim": true
+      },
+      "id": "357d7ad0-7a77-46b9-acf2-a688205ad28c"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 3
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "07cabcd6-595a-4c86-b9b8-7d5603b83b46"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette1": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette2": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette3": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette4": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette5": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette6": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette7": "01801774-244a-4bf5-b60d-3b0312637228",
+        "__collapse": true
+      },
+      "id": "58595762-b5d1-4512-bfdc-406f4913a341"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette1": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette2": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette3": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette4": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette5": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette6": "01801774-244a-4bf5-b60d-3b0312637228",
+        "palette7": "01801774-244a-4bf5-b60d-3b0312637228",
+        "__collapse": true
+      },
+      "id": "083be235-1084-4fcc-b7aa-6e3a2959af98"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 3
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": true
+      },
+      "id": "ca5aeec2-2a43-4fe9-848a-ded66ff4ab3f"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_BACKGROUND",
+      "args": {
+        "palette0": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette1": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette2": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette3": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette4": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette5": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette6": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette7": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "__collapse": true
+      },
+      "id": "bd57891f-4c37-4292-8910-d4e6c4818dac"
+    },
+    {
+      "command": "EVENT_PALETTE_SET_SPRITE",
+      "args": {
+        "palette0": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette1": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette2": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette3": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette4": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette5": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette6": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "palette7": "ebc6ba97-f29a-47c9-a23e-a153721d5c4b",
+        "__collapse": true
+      },
+      "id": "1fb537f4-ee8d-44f7-9ba6-b8d604b8e4ad"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "f378ddcc-59ba-4f34-a8eb-f5bb44478100"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4787cbf9-d242-484a-bcf9-9cdc0d619527",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "c02c8ff5-81c3-49d8-a37c-7eb18bd289ea"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 22,
+  "y": 17,
+  "_index": 1
+}
