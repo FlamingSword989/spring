@@ -230,7 +230,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "And in the ensuing chaos,\na great sorceress,\nnamed MÁTHAIR SHUIGH,\ntook over the forest."
+          "And in the ensuing \nchaos, a great \nsorceress,named \nMÁTHAIR SHUIGH,\ntook over the forest."
         ],
         "__section": "text",
         "avatarId": "",
