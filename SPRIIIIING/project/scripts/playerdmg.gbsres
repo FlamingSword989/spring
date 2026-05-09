@@ -20,7 +20,7 @@
             "type": "false"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -111,7 +111,7 @@
                 }
               },
               "__collapseElse": true,
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -132,6 +132,11 @@
                   },
                   "id": "acc926f4-7e27-41eb-a5ac-6e79b6c39c5e",
                   "children": {}
+                },
+                {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {},
+                  "id": "9f7a5180-8331-48b7-a619-4d53b62f7693"
                 }
               ],
               "false": []

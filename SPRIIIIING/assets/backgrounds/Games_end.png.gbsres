@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5f309a48-7d98-4a26-9f7a-af5e330740dc",
+  "name": "Games_end",
+  "symbol": "bg_games_end",
+  "tileColors": "",
+  "filename": "Games_end.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

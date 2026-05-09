@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "95ad8a8c-fb6a-484b-879c-9bfd6f4a8db5",
-  "_index": 5,
+  "_index": 4,
   "name": "Shroom1",
   "backgroundId": "496767e8-96dc-4b2d-ac18-8a3162884aea",
   "tilesetId": "",
@@ -26,7 +26,13 @@
   "symbol": "scene_6",
   "x": 512,
   "y": 496,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "122208db-c467-4734-9542-57ef815ddf77"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
