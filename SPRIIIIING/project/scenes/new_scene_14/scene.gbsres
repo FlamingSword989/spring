@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "14be0225-8076-46d7-bf6b-52c4662d64af",
-  "_index": 13,
+  "_index": 15,
   "name": "New Scene 14",
   "backgroundId": "2438a9ce-3a2b-4079-8343-198c82652014",
   "tilesetId": "",
@@ -15,7 +15,7 @@
   "spritePaletteIds": [],
   "collisions": "002d0+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_0",
+  "symbol": "scene_15",
   "x": 528,
   "y": 752,
   "script": [],

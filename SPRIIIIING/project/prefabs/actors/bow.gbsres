@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "274c1ee5-94db-4caf-be7f-4569f9c29678",
+  "name": "Bow",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "730a666a-850f-469f-85bb-f39cb4383085",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "bf3e6195-c0c8-4481-aeec-48967e6f2ed4",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2cf88bc9-abc4-4d63-a49a-e8bad552f7a6",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_ACTOR_SET_FRAME",
+      "args": {
+        "actorId": "$self$",
+        "frame": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "d07f02a6-a612-4f59-93fc-ace7e9d8083b",
+      "children": {}
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

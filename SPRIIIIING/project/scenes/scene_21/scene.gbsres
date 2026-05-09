@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4787cbf9-d242-484a-bcf9-9cdc0d619527",
-  "_index": 20,
+  "_index": 22,
   "name": "Scene 21",
   "backgroundId": "5f309a48-7d98-4a26-9f7a-af5e330740dc",
   "tilesetId": "",
@@ -15,7 +15,7 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_21",
+  "symbol": "scene_22",
   "x": 2256,
   "y": 952,
   "script": [],

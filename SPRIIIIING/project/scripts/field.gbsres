@@ -15,7 +15,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -226,7 +226,7 @@
                             "2",
                             "3"
                           ],
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "e0a6b293-7830-4d9f-b1a7-2ef6e3048489"
                       },

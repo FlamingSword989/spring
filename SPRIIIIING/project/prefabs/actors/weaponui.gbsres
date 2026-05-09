@@ -1,0 +1,84 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "54e7c326-dfc1-4c54-9b7a-c3e9a3e37d58",
+  "name": "WeaponUI",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "730a666a-850f-469f-85bb-f39cb4383085",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 16
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "f5f49f80-8c69-44ec-bf22-4ccbd8efd16a"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "7"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "1998569f-4f01-4765-96b2-8b056ef00b4e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "106af194-3bd4-45fd-80df-f84bb1f8fe6c"
+          }
+        ]
+      },
+      "id": "2f6e85c3-bb9c-4891-9d04-f006f09a7973"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "2f7de69d-33fc-49b3-b5a0-b004efc28993",
-  "_index": 16,
+  "_index": 18,
   "name": "Scene 17",
   "backgroundId": "dc08fc59-435e-44d6-b514-f91bda34eadb",
   "tilesetId": "",
@@ -15,7 +15,7 @@
   "spritePaletteIds": [],
   "collisions": "00438+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_17",
+  "symbol": "scene_18",
   "x": 208,
   "y": 936,
   "script": [],
