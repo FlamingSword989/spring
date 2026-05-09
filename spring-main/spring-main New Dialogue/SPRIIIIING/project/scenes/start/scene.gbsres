@@ -1,0 +1,90 @@
+{
+  "_resourceType": "scene",
+  "id": "0b831d0b-5b19-4aec-9f32-b9001a1400e8",
+  "_index": 2,
+  "name": "Start",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 80,
+  "y": 30,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "bc7560df-a370-4bc1-bd7e-a73d97aae388"
+      },
+      "id": "ff986df9-7dfb-429f-a45b-7067bf7e1dd7"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Start Game",
+        "option2": "",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue"
+      },
+      "id": "76d35fb8-ce77-4219-86a5-75788c5a2642"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b39a0f57-e6de-4b40-8064-7a80b79eadb6",
+              "x": {
+                "type": "number",
+                "value": 3
+              },
+              "y": {
+                "type": "number",
+                "value": 16
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "58fdb23c-ad34-41e8-9d6c-7ea86358d59b"
+          }
+        ],
+        "false": []
+      },
+      "id": "1ed89d99-998b-4526-86bf-6bcd2a0e2613"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "147bb59d-4db3-4c73-b3ef-46ee67d78688"
+}

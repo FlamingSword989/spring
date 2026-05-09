@@ -1,0 +1,39 @@
+{
+  "_resourceType": "trigger",
+  "id": "ab58c4b3-f832-4ef5-91c9-7f343191dbd9",
+  "name": "fall",
+  "prefabId": "",
+  "x": 15,
+  "y": 24,
+  "symbol": "trigger_8",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 11
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        }
+      },
+      "id": "86d650b0-fd13-42cf-b693-b56adb29f1d3",
+      "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "c1132c70-d78f-4434-bb52-b5d25562e134"
+      },
+      "id": "6c267a95-ef47-4959-8464-ac3268ae3a74"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

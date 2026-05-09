@@ -1,0 +1,75 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "e70b9f53-f97b-4807-ac9e-5ba07faca290",
+  "name": "Carrot",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "302e9e6b-aacc-4518-9eb5-dbf83ae323a5",
+  "moveSpeed": 1,
+  "animSpeed": 127,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "263edbf8-6538-4d89-bfe3-02dcc2ab1117",
+      "children": {}
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_VARIABLE_MATH_EVALUATE",
+            "args": {
+              "variable": "0",
+              "expression": ""
+            },
+            "id": "45aa3584-e51b-4908-bec2-5786de82ee61"
+          }
+        ],
+        "false": []
+      },
+      "id": "3b356f98-6597-4224-a58e-34ea650c7974"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 6,
+        "frequency": 200,
+        "duration": 0.28,
+        "wait": false,
+        "effect": 0
+      },
+      "id": "252d4bc6-fd49-4337-b083-39bc5180fb5f",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

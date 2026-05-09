@@ -1,12 +1,12 @@
 {
   "_resourceType": "scene",
   "id": "8859d267-36bf-4f1b-a47a-f98388962a83",
-  "_index": 8,
+  "_index": 9,
   "name": "Scene 9",
   "backgroundId": "2438a9ce-3a2b-4079-8343-198c82652014",
   "tilesetId": "",
-  "width": 40,
-  "height": 18,
+  "width": 32,
+  "height": 32,
   "type": "PLATFORM",
   "colorModeOverride": "none",
   "paletteIds": [
@@ -23,9 +23,9 @@
     "dmg",
     "dmg"
   ],
-  "collisions": "002d0+",
+  "collisions": "00400+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_9",
+  "symbol": "scene_0",
   "x": 2264,
   "y": 744,
   "script": [

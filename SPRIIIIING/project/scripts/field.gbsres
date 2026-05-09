@@ -15,7 +15,7 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -26,7 +26,7 @@
                 "type": "ne",
                 "valueA": {
                   "type": "variable",
-                  "value": "4"
+                  "value": "7"
                 },
                 "valueB": {
                   "type": "number",
@@ -179,7 +179,7 @@
                       "type": "eq",
                       "valueA": {
                         "type": "variable",
-                        "value": "5"
+                        "value": "6"
                       },
                       "valueB": {
                         "type": "false"
@@ -192,7 +192,7 @@
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
-                          "variable": "5",
+                          "variable": "6",
                           "value": {
                             "type": "true"
                           }
@@ -327,7 +327,7 @@
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
-                          "variable": "5",
+                          "variable": "6",
                           "value": {
                             "type": "false"
                           }
@@ -365,7 +365,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "4"
+                  "value": "7"
                 },
                 "valueB": {
                   "type": "number",
@@ -397,21 +397,21 @@
                       "type": "eq",
                       "valueA": {
                         "type": "variable",
-                        "value": "4"
+                        "value": "7"
                       },
                       "valueB": {
                         "type": "number",
                         "value": 2
                       }
                     },
-                    "__collapseElse": true
+                    "__collapseElse": false
                   },
                   "children": {
                     "true": [
                       {
                         "command": "EVENT_SET_VALUE",
                         "args": {
-                          "variable": "4",
+                          "variable": "7",
                           "value": {
                             "type": "number",
                             "value": 1

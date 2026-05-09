@@ -1,0 +1,46 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "HP",
+      "symbol": "var_hp"
+    },
+    {
+      "id": "1",
+      "name": "Wall Jump",
+      "symbol": "var_wall_jump"
+    },
+    {
+      "id": "2",
+      "name": "Global1",
+      "symbol": "var_global1"
+    },
+    {
+      "id": "3",
+      "name": "DMGcd",
+      "symbol": "var_dmgcd"
+    },
+    {
+      "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L0",
+      "name": "cd",
+      "symbol": "var_cd"
+    },
+    {
+      "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L1",
+      "name": "hp",
+      "symbol": "var_hp_0"
+    },
+    {
+      "id": "4",
+      "name": "Quest",
+      "symbol": "var_quest"
+    },
+    {
+      "id": "5",
+      "name": "FinalFightStarrt",
+      "symbol": "var_finalfightstarrt"
+    }
+  ],
+  "constants": []
+}

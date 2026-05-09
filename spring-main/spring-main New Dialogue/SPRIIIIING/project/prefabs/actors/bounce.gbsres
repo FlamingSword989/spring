@@ -1,0 +1,30 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "678193e7-a410-486b-a0ae-782cd218149a",
+  "name": "bounce",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "147bb59d-4db3-4c73-b3ef-46ee67d78688",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_PLAYER_BOUNCE",
+      "args": {
+        "height": "high"
+      },
+      "id": "08c7d189-9192-445c-ae25-5ca1b0d15f83",
+      "children": {}
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}
