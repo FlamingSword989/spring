@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "284b83c5-18a7-48f1-a716-1b4b2909a14b",
-  "name": "Control",
+  "id": "48794f5c-9c3a-4a78-8bd6-00cbf7cece61",
+  "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "46dafe8b-ede1-4083-82ad-36fab3337059",
+  "spriteSheetId": "1491b5f2-d720-4cfd-88f0-264d3b4b8b1b",
+  "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_72",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 9,
-  "y": 9,
-  "_index": 1
+  "x": 20,
+  "y": 4,
+  "_index": 2
 }

@@ -1,0 +1,26 @@
+{
+  "_resourceType": "scene",
+  "id": "f4dc7892-dca8-4f08-9cdb-6c0b33b152cf",
+  "_index": 20,
+  "name": "Scene 20",
+  "backgroundId": "2438a9ce-3a2b-4079-8343-198c82652014",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "PLATFORM",
+  "colorModeOverride": "none",
+  "paletteIds": [
+    "278531b4-a519-48b1-8967-ff005b2f420c"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "002d0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "x": 1838.3722442925575,
+  "y": 941.1665002252041,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
+}

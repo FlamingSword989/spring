@@ -23,13 +23,13 @@
     },
     {
       "id": "4",
-      "name": "Arrow",
-      "symbol": "var_arrow"
+      "name": "Quest",
+      "symbol": "var_quest"
     },
     {
       "id": "5",
-      "name": "ATKcd",
-      "symbol": "var_atkcd"
+      "name": "FinalFightStarrt",
+      "symbol": "var_finalfightstarrt"
     },
     {
       "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L0",

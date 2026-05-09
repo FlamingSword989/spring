@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "284b83c5-18a7-48f1-a716-1b4b2909a14b",
-  "name": "Control",
+  "id": "21efd597-2acb-4512-ad65-408fc7a547e7",
+  "name": "BounceShroom",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "46dafe8b-ede1-4083-82ad-36fab3337059",
+  "prefabId": "72461ab1-74e6-4a38-9e55-d59cb892c5a7",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
+  "symbol": "actor_60",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 9,
-  "y": 9,
-  "_index": 1
+  "x": 16,
+  "y": 17,
+  "_index": 6
 }
