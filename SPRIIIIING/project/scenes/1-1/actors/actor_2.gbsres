@@ -23,7 +23,7 @@
         "text": [
           "Good morning\nJehoshaphat!\nHow are you?"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -38,7 +38,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "cb7f8a24-e36c-487c-880d-f001678ffa82"
     },
@@ -63,7 +64,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "e4891921-7909-4a55-b380-997c500e0552"
     },
@@ -88,7 +90,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "f35cfd38-ec3b-4b13-8a8e-74f4481cce22"
     },

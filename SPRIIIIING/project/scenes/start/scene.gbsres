@@ -20,7 +20,8 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "bc7560df-a370-4bc1-bd7e-a73d97aae388"
+        "customEventId": "bc7560df-a370-4bc1-bd7e-a73d97aae388",
+        "__collapse": true
       },
       "id": "ff986df9-7dfb-429f-a45b-7067bf7e1dd7"
     },
@@ -29,13 +30,13 @@
       "args": {
         "time": {
           "type": "number",
-          "value": 1.5
+          "value": 2.5
         },
         "frames": {
           "type": "number",
           "value": 1
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "151ad95d-2d9a-4b26-824b-95adb02dd764"
     },
@@ -54,7 +55,8 @@
         "option8": "",
         "cancelOnB": false,
         "layout": "dialogue",
-        "__comment": false
+        "__comment": false,
+        "__collapse": true
       },
       "id": "76d35fb8-ce77-4219-86a5-75788c5a2642"
     },
@@ -127,5 +129,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "147bb59d-4db3-4c73-b3ef-46ee67d78688"
+  "playerSpriteSheetId": "147bb59d-4db3-4c73-b3ef-46ee67d78688",
+  "autoFadeEventCollapse": true
 }
