@@ -35,7 +35,7 @@
     },
     {
       "id": "FEAT_PLATFORM_WALL_JUMP",
-      "value": 1
+      "value": 0
     },
     {
       "id": "plat_knockback_vel_y",
@@ -48,6 +48,10 @@
     {
       "id": "plat_walk_vel",
       "value": 6144
+    },
+    {
+      "id": "INPUT_PLATFORM_INTERACT",
+      "value": "INPUT_UP"
     }
   ]
 }

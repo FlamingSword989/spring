@@ -29,6 +29,13 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "54d82e8e-4eb3-4f20-bcef-2e2c9c01d019"
+            },
+            "id": "1858a56d-548d-4e00-96f8-edc1d08cfc40"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [

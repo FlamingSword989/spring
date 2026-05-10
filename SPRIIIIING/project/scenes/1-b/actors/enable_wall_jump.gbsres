@@ -14,7 +14,16 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "bd9bce1e-b0ab-4fab-befc-44bc8b0f23c1": {
+      "id": "bd9bce1e-b0ab-4fab-befc-44bc8b0f23c1",
+      "args": {
+        "text": [
+          "Air attack unlocked!"
+        ]
+      }
+    }
+  },
   "symbol": "actor_13",
   "script": [],
   "startScript": [],

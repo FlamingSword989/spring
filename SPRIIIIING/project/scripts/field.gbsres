@@ -54,6 +54,30 @@
                     "__collapseElse": true
                   },
                   "children": {
+                    "true": [],
+                    "false": []
+                  },
+                  "id": "d14eeab5-bec5-47e9-8f1e-e21ef2c4aea0"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "gt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "1"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true,
+                    "__comment": false,
+                    "__collapse": false
+                  },
+                  "children": {
                     "true": [
                       {
                         "command": "EVENT_LAUNCH_PROJECTILE",
@@ -169,7 +193,7 @@
                     ],
                     "false": []
                   },
-                  "id": "d14eeab5-bec5-47e9-8f1e-e21ef2c4aea0"
+                  "id": "685d48af-a7c0-4698-86a6-bb14b8fee6e1"
                 }
               ],
               "false": [

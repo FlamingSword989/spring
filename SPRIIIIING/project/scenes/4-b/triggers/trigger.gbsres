@@ -21,7 +21,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 1
+            "value": 0
           }
         },
         "__collapseElse": true,
@@ -29,6 +29,13 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "54d82e8e-4eb3-4f20-bcef-2e2c9c01d019"
+            },
+            "id": "082d7f0f-3e8c-42b7-b780-2f5061bff355"
+          },
           {
             "command": "EVENT_TEXT",
             "args": {
@@ -85,7 +92,7 @@
               "variable": "2",
               "value": {
                 "type": "number",
-                "value": 0
+                "value": 1
               }
             },
             "id": "1553b917-6362-4ebc-9ece-0b584b34a562"

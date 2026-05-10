@@ -14,6 +14,11 @@
   "prefabScriptOverrides": {},
   "script": [
     {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "db08121c-5a3f-4f2b-9ad5-79d9b3d1fc29"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": "",

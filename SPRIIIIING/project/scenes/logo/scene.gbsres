@@ -3,13 +3,15 @@
   "id": "04e1afae-28ea-44ac-9488-de8dae3ee740",
   "_index": 23,
   "name": "logo",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "77bfdaee-7e6b-418e-8e7d-9f647bd1541c",
   "tilesetId": "",
   "width": 20,
   "height": 18,
   "type": "LOGO",
   "colorModeOverride": "none",
-  "paletteIds": [],
+  "paletteIds": [
+    "0b40d5cb-ba38-4eab-bf05-a11de39080b7"
+  ],
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
@@ -17,6 +19,20 @@
   "x": 60,
   "y": 30,
   "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": {
+          "type": "number",
+          "value": 1
+        },
+        "frames": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "09457ddf-e435-4a05-82bc-53b296a10903"
+    },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {

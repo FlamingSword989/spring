@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "bcf88eba-227c-499b-bf55-c310b996da57",
+  "name": "GBCStyledGrasslandBackground",
+  "symbol": "bg_gbcstyledgrasslandbackgr",
+  "tileColors": "",
+  "filename": "GBCStyledGrasslandBackground.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": true
+}

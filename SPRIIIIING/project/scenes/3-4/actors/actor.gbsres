@@ -274,7 +274,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "But he yearns in vain\n---she is not like\nthe gardener. And he will\nperish by the wand\nshould he ever find her."
+                "But he yearns in vain\n---she is not like\nthe gardener. And he \nwill perish by the wand\nshould he ever find her."
               ],
               "__section": "text",
               "avatarId": "",
