@@ -16,16 +16,51 @@
   "script": [],
   "startScript": [
     {
-      "command": "EVENT_ACTOR_SET_FRAME",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "$self$",
-        "frame": {
-          "type": "number",
-          "value": 0
-        }
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "48fcf43d-4985-40f9-b44e-e317908edacb",
-      "children": {}
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "9da6e313-b651-4cb9-9cf4-d95d7e962136",
+            "children": {}
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_SET_FRAME",
+            "args": {
+              "actorId": "$self$",
+              "frame": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "48fcf43d-4985-40f9-b44e-e317908edacb",
+            "children": {}
+          }
+        ]
+      },
+      "id": "165915f7-278e-413d-b78b-e8a614c77cbc"
     },
     {
       "command": "EVENT_ACTOR_SET_POSITION",

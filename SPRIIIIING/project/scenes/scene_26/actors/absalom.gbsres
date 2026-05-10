@@ -27,15 +27,57 @@
   ],
   "startScript": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "L1",
-        "value": {
-          "type": "number",
-          "value": 7
-        }
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "b8408c02-0416-4bb5-b94e-2998767d46dc"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L1",
+              "value": {
+                "type": "number",
+                "value": 10
+              }
+            },
+            "id": "0be2a8bd-a447-4143-8e65-cdfc1094d287"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 1.5
+            },
+            "id": "32d684b3-69f1-4278-8266-5951be3831fa"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L1",
+              "value": {
+                "type": "number",
+                "value": 7
+              }
+            },
+            "id": "b8408c02-0416-4bb5-b94e-2998767d46dc"
+          }
+        ]
+      },
+      "id": "063f2871-b408-42af-9191-923c25d6e9ad"
     }
   ],
   "updateScript": [

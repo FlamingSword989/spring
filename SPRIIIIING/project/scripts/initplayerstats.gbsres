@@ -8,15 +8,49 @@
   "symbol": "script_2",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "0",
-        "value": {
-          "type": "number",
-          "value": 3
-        }
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "d3976dca-7ed9-4cf5-bcba-4f51c04ba4be"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "714d67f2-859c-413b-87e9-776b35388bb8"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 3
+              }
+            },
+            "id": "d3976dca-7ed9-4cf5-bcba-4f51c04ba4be"
+          }
+        ]
+      },
+      "id": "3b8ebd0c-8021-4d82-82d6-d05df4da810c"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -47,7 +81,7 @@
         "variable": "7",
         "value": {
           "type": "number",
-          "value": 2
+          "value": 0
         },
         "__collapse": true
       },

@@ -19,51 +19,99 @@
       "id": "db08121c-5a3f-4f2b-9ad5-79d9b3d1fc29"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "You got a bow!",
-          "Press Select to switch\nback to sword",
-          "Health restored!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
       },
-      "id": "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": "",
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "88e39739-4cb4-47b6-874d-ef2780f61629"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You got a bow!",
+                "Press Select to switch\nback to sword",
+                "Health restored!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "number",
+                "value": 1
+              },
+              "__collapse": true
+            },
+            "id": "bf3e6195-c0c8-4481-aeec-48967e6f2ed4",
+            "children": {}
+          }
+        ]
+      },
+      "id": "50315e89-f023-4f11-9b13-c3ae1401d2a0"
     },
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "755d3e8b-dba3-456e-8ed4-f0b1430d6da7"
-      },
-      "id": "01be9d81-233e-4271-95b7-d6297cd57979"
-    },
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "7",
-        "value": {
-          "type": "number",
-          "value": 1
-        },
+        "customEventId": "755d3e8b-dba3-456e-8ed4-f0b1430d6da7",
         "__collapse": true
       },
-      "id": "bf3e6195-c0c8-4481-aeec-48967e6f2ed4",
-      "children": {}
+      "id": "01be9d81-233e-4271-95b7-d6297cd57979"
     },
     {
       "command": "EVENT_SET_VALUE",

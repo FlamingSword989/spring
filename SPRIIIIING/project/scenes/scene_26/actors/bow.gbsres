@@ -14,7 +14,32 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "50315e89-f023-4f11-9b13-c3ae1401d2a0": {
+      "id": "50315e89-f023-4f11-9b13-c3ae1401d2a0",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        }
+      }
+    },
+    "88e39739-4cb4-47b6-874d-ef2780f61629": {
+      "id": "88e39739-4cb4-47b6-874d-ef2780f61629",
+      "args": {
+        "text": [
+          "You got a bow!",
+          "But this is hard mode\nso it disintegrates"
+        ]
+      }
+    }
+  },
   "symbol": "actor_122",
   "script": [],
   "startScript": [],

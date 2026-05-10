@@ -55,6 +55,11 @@
       "id": "0b831d0b-5b19-4aec-9f32-b9001a1400e8__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "5",
+      "name": "hardMode",
+      "symbol": "var_hardmode"
     }
   ],
   "constants": []
