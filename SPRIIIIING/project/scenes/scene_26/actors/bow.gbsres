@@ -14,18 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "collisionExtraFlags": [],
-  "prefabScriptOverrides": {
-    "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7": {
-      "id": "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7",
-      "args": {
-        "text": [
-          "You got a bow!",
-          "Press Select to switch\nback to sword",
-          "Health restored!"
-        ]
-      }
-    }
-  },
+  "prefabScriptOverrides": {},
   "symbol": "actor_122",
   "script": [],
   "startScript": [],

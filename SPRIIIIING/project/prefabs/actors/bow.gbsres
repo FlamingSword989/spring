@@ -23,7 +23,8 @@
       "args": {
         "text": [
           "You got a bow!",
-          "Press Select to switch\nback to sword"
+          "Press Select to switch\nback to sword",
+          "Health restored!"
         ],
         "__section": "text",
         "avatarId": "",

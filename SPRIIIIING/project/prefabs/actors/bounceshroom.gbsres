@@ -36,9 +36,9 @@
             "args": {
               "type": "beep",
               "priority": "medium",
-              "pitch": 4,
+              "pitch": 6,
               "frequency": 200,
-              "duration": 0.5,
+              "duration": 0.05,
               "wait": false,
               "effect": 0
             },
