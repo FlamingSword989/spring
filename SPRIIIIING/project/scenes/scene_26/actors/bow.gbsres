@@ -1,0 +1,45 @@
+{
+  "_resourceType": "actor",
+  "id": "bd80936c-29fe-4e05-ba28-cdab6198880f",
+  "name": "Bow",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "274c1ee5-94db-4caf-be7f-4569f9c29678",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {
+    "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7": {
+      "id": "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7",
+      "args": {
+        "text": [
+          "You got a bow!",
+          "Press Select to switch\nback to sword"
+        ]
+      }
+    },
+    "07ae8353-534c-4109-af10-5f21af325e0d": {
+      "id": "07ae8353-534c-4109-af10-5f21af325e0d",
+      "args": {
+        "direction": "right"
+      }
+    }
+  },
+  "symbol": "actor_122",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 24,
+  "y": 16,
+  "_index": 4
+}

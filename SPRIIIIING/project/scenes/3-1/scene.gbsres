@@ -29,14 +29,14 @@
   "y": 752,
   "script": [],
   "playerHit1Script": [],
-  "playerHit2Script": [
+  "playerHit2Script": [],
+  "playerHit3Script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "ec69f053-de6a-4c7e-a2fe-717146ea5975"
       },
-      "id": "c0e91287-f8c4-456d-baa2-f19a9c2abb64"
+      "id": "5082ba0a-d2df-492a-84c0-216916e6b07f"
     }
-  ],
-  "playerHit3Script": []
+  ]
 }

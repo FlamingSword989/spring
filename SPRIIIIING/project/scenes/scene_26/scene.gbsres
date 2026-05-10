@@ -27,13 +27,6 @@
         }
       },
       "id": "69b959b7-3f81-491c-a86f-13b65bbabdfc"
-    },
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "bc7560df-a370-4bc1-bd7e-a73d97aae388"
-      },
-      "id": "b4180207-3eab-4a8d-a8bc-8ac70857076d"
     }
   ],
   "playerHit1Script": [],

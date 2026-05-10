@@ -1,43 +1,73 @@
 {
   "_resourceType": "trigger",
-  "id": "2fbcde5c-ef71-42a7-a095-b74a1d7a865b",
+  "id": "b366d132-aea1-4024-b40e-910da2e20f46",
   "name": "",
   "prefabId": "",
-  "x": 49,
-  "y": 2,
-  "symbol": "trigger_36",
+  "x": 31,
+  "y": 19,
+  "symbol": "trigger_40",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 21,
+  "width": 6,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
+      "command": "EVENT_IF",
       "args": {
-        "variable": "8",
-        "value": {
-          "type": "number",
-          "value": 3
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
         },
-        "__collapse": false
+        "__collapseElse": true
       },
-      "id": "43ff413a-fcf6-43c0-9acd-bc1f4bfb1d50"
-    },
-    {
-      "command": "EVENT_SWITCH_SCENE",
-      "args": {
-        "sceneId": "78ae0697-da81-4806-ac9a-ca44bd69a3c2",
-        "x": {
-          "type": "number",
-          "value": 9
-        },
-        "y": {
-          "type": "number",
-          "value": 7
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Absalom:\nGive me all of your food!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0c4da151-bd85-4ac9-ad3d-731dafc7c80f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "571f9229-ca9e-424c-aa0f-5146eaad1087"
+          }
+        ],
+        "false": []
       },
-      "id": "29fc26ad-148d-4fdf-a5ea-8fd3f66c7d6f"
+      "id": "80168bab-f5b8-43fe-ab40-27770e047956"
     }
   ],
   "leaveScript": [],

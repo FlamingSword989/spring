@@ -17,8 +17,8 @@
               "id": "b089e0fb-b311-4ff9-9041-82142d4e02b1",
               "tiles": [
                 {
-                  "id": "4ddd5c9f-a010-42c5-88e5-1ac5fa85d9ac",
-                  "x": -24,
+                  "id": "7e6322e7-4bb1-4a65-96a1-da329f4b6af4",
+                  "x": -23,
                   "y": 48,
                   "sliceX": 0,
                   "sliceY": 0,
@@ -30,8 +30,8 @@
                   "priority": false
                 },
                 {
-                  "id": "2f06a0ea-1251-41eb-bfaa-90a04cd4978a",
-                  "x": -24,
+                  "id": "0111d3d3-132f-49e7-bad6-2de80e4b6c1b",
+                  "x": -23,
                   "y": 32,
                   "sliceX": 0,
                   "sliceY": 16,
@@ -43,8 +43,8 @@
                   "priority": false
                 },
                 {
-                  "id": "6de3ff39-298a-4f12-a5f5-02a34804c91e",
-                  "x": -24,
+                  "id": "d815bbc9-5405-44af-bd18-b79768d2e550",
+                  "x": -23,
                   "y": 16,
                   "sliceX": 0,
                   "sliceY": 32,
@@ -56,8 +56,8 @@
                   "priority": false
                 },
                 {
-                  "id": "db3dee5d-7db6-41b5-b10d-7ae0aa18ee52",
-                  "x": -24,
+                  "id": "31bed847-48a5-4f53-8bf6-67c9fa521df6",
+                  "x": -23,
                   "y": 0,
                   "sliceX": 0,
                   "sliceY": 48,
@@ -69,8 +69,8 @@
                   "priority": false
                 },
                 {
-                  "id": "71810ef1-fe32-416a-a926-aa114d08a482",
-                  "x": -16,
+                  "id": "30a7c197-fe53-49e6-9901-dd7c747e8a1e",
+                  "x": -15,
                   "y": 48,
                   "sliceX": 8,
                   "sliceY": 0,
@@ -82,8 +82,8 @@
                   "priority": false
                 },
                 {
-                  "id": "e2e82763-5666-4116-a73f-2e0944058890",
-                  "x": -16,
+                  "id": "61b6ee36-d1e3-4bed-b6fc-3e4fa1e39cec",
+                  "x": -15,
                   "y": 32,
                   "sliceX": 8,
                   "sliceY": 16,
@@ -95,8 +95,8 @@
                   "priority": false
                 },
                 {
-                  "id": "03baa249-ea2f-4b52-9495-073ebee06de0",
-                  "x": -16,
+                  "id": "7c70497e-8fb6-4d00-bda5-427b45e32a56",
+                  "x": -15,
                   "y": 16,
                   "sliceX": 8,
                   "sliceY": 32,
@@ -108,8 +108,8 @@
                   "priority": false
                 },
                 {
-                  "id": "c1d251d4-5a2c-428e-83d0-faccb01cfe04",
-                  "x": -16,
+                  "id": "126fe45b-658c-49fc-8ca1-b8484f7cb11a",
+                  "x": -15,
                   "y": 0,
                   "sliceX": 8,
                   "sliceY": 48,
@@ -121,8 +121,8 @@
                   "priority": false
                 },
                 {
-                  "id": "b8524447-e81d-437e-b114-02e9d929b696",
-                  "x": -8,
+                  "id": "87f7c6ea-83d7-49c2-a4d0-e07ccd33accc",
+                  "x": -7,
                   "y": 48,
                   "sliceX": 16,
                   "sliceY": 0,
@@ -134,8 +134,8 @@
                   "priority": false
                 },
                 {
-                  "id": "d08d3e43-c51c-4155-98f3-38bffffec91b",
-                  "x": -8,
+                  "id": "0a4055c1-1922-4554-bb7d-d777673cd509",
+                  "x": -7,
                   "y": 32,
                   "sliceX": 16,
                   "sliceY": 16,
@@ -147,8 +147,8 @@
                   "priority": false
                 },
                 {
-                  "id": "b2d01a6e-4289-4735-b1ba-923887c226de",
-                  "x": -8,
+                  "id": "8f983229-6732-4981-881d-e91d75cca87e",
+                  "x": -7,
                   "y": 16,
                   "sliceX": 16,
                   "sliceY": 32,
@@ -160,8 +160,8 @@
                   "priority": false
                 },
                 {
-                  "id": "b8af8268-456d-4000-9045-861c78285c10",
-                  "x": -8,
+                  "id": "7b2575e3-be36-4ece-a31c-7620a3cb960f",
+                  "x": -7,
                   "y": 0,
                   "sliceX": 16,
                   "sliceY": 48,
@@ -173,8 +173,8 @@
                   "priority": false
                 },
                 {
-                  "id": "833eda5d-a8a0-421c-8b8d-6edcf75b167a",
-                  "x": 0,
+                  "id": "b16194b3-3c07-4724-b509-c3c5a3d97fa4",
+                  "x": 1,
                   "y": 48,
                   "sliceX": 24,
                   "sliceY": 0,
@@ -186,8 +186,8 @@
                   "priority": false
                 },
                 {
-                  "id": "0870a15a-1521-47e1-ba3e-d938f86898ab",
-                  "x": 0,
+                  "id": "aac7408d-3b3a-46af-9a70-be7980c20c9d",
+                  "x": 1,
                   "y": 32,
                   "sliceX": 24,
                   "sliceY": 16,
@@ -199,8 +199,8 @@
                   "priority": false
                 },
                 {
-                  "id": "3c3e06c3-71e3-43d7-8443-c2dda4282cd0",
-                  "x": 0,
+                  "id": "221383bf-593e-40cb-8710-59f1a1c88d30",
+                  "x": 1,
                   "y": 16,
                   "sliceX": 24,
                   "sliceY": 32,
@@ -212,8 +212,8 @@
                   "priority": false
                 },
                 {
-                  "id": "f8313eb3-c2b0-40cc-9819-0dc4752e9e3d",
-                  "x": 0,
+                  "id": "9228bb6f-6398-45d9-9cb6-30709ea8bf4e",
+                  "x": 1,
                   "y": 0,
                   "sliceX": 24,
                   "sliceY": 48,
@@ -225,8 +225,8 @@
                   "priority": false
                 },
                 {
-                  "id": "439d3908-ce17-47dc-b9f1-6e3cb5e03a35",
-                  "x": 8,
+                  "id": "83fe3313-3e91-4cbe-a663-3efc16e2e2a0",
+                  "x": 9,
                   "y": 48,
                   "sliceX": 32,
                   "sliceY": 0,
@@ -238,8 +238,8 @@
                   "priority": false
                 },
                 {
-                  "id": "02eade6c-432b-4b9a-b518-1be3826ab16e",
-                  "x": 8,
+                  "id": "b8d92a4c-c29a-472a-8362-9517d5386201",
+                  "x": 9,
                   "y": 32,
                   "sliceX": 32,
                   "sliceY": 16,
@@ -251,8 +251,8 @@
                   "priority": false
                 },
                 {
-                  "id": "92d65ce4-d290-4b4a-b516-a614efb35d2b",
-                  "x": 8,
+                  "id": "31e44f83-d50d-4f72-83f7-cd3254b4d035",
+                  "x": 9,
                   "y": 16,
                   "sliceX": 32,
                   "sliceY": 32,
@@ -264,8 +264,8 @@
                   "priority": false
                 },
                 {
-                  "id": "d016c70a-e41d-493b-b486-20db59dab7a8",
-                  "x": 8,
+                  "id": "65f1e1d6-d114-4ca9-a867-0931a4f186cc",
+                  "x": 9,
                   "y": 0,
                   "sliceX": 32,
                   "sliceY": 48,
@@ -277,8 +277,8 @@
                   "priority": false
                 },
                 {
-                  "id": "c4436829-0cea-457d-878c-7105e506afe3",
-                  "x": 16,
+                  "id": "3e6fbe2f-7fb4-4259-84e9-f42e088f79c9",
+                  "x": 17,
                   "y": 48,
                   "sliceX": 40,
                   "sliceY": 0,
@@ -290,8 +290,8 @@
                   "priority": false
                 },
                 {
-                  "id": "fc6c5200-fce3-4754-8a3e-804c6c03dfae",
-                  "x": 16,
+                  "id": "cce8a4c9-e57e-4f6e-9be4-2c8646895514",
+                  "x": 17,
                   "y": 32,
                   "sliceX": 40,
                   "sliceY": 16,
@@ -303,8 +303,8 @@
                   "priority": false
                 },
                 {
-                  "id": "4fd23252-9d08-4506-80b3-2264f3b5a3d6",
-                  "x": 16,
+                  "id": "a3a19fac-4288-4937-9ece-8fb83a3ecf8c",
+                  "x": 17,
                   "y": 16,
                   "sliceX": 40,
                   "sliceY": 32,
@@ -316,8 +316,8 @@
                   "priority": false
                 },
                 {
-                  "id": "abdcf443-0206-46c0-aa62-86f693265940",
-                  "x": 16,
+                  "id": "0d8d5720-0f69-46f3-80ee-7e669d968377",
+                  "x": 17,
                   "y": 0,
                   "sliceX": 40,
                   "sliceY": 48,
@@ -329,8 +329,8 @@
                   "priority": false
                 },
                 {
-                  "id": "594fef64-b8d5-43ea-9fca-836d13d3aa5c",
-                  "x": 24,
+                  "id": "e43355c7-910f-4836-90cf-410783a02aa1",
+                  "x": 25,
                   "y": 48,
                   "sliceX": 48,
                   "sliceY": 0,
@@ -342,8 +342,8 @@
                   "priority": false
                 },
                 {
-                  "id": "a52f0656-9a0a-4abf-a07e-13056b800089",
-                  "x": 24,
+                  "id": "9de5fa3b-d473-4e4e-abbc-635ea9623c6d",
+                  "x": 25,
                   "y": 32,
                   "sliceX": 48,
                   "sliceY": 16,
@@ -355,8 +355,8 @@
                   "priority": false
                 },
                 {
-                  "id": "be80fb4f-b0e8-4edd-b95a-2eeb27891333",
-                  "x": 24,
+                  "id": "47ed949c-b0f8-4ee5-ab93-8e7382240a63",
+                  "x": 25,
                   "y": 16,
                   "sliceX": 48,
                   "sliceY": 32,
@@ -368,62 +368,10 @@
                   "priority": false
                 },
                 {
-                  "id": "141ad5a0-29cb-44d5-b53a-43377aa6d58a",
-                  "x": 24,
+                  "id": "66eb8d77-79a8-42cb-b0b0-fdc4c1fb42a3",
+                  "x": 25,
                   "y": 0,
                   "sliceX": 48,
-                  "sliceY": 48,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 5,
-                  "priority": false
-                },
-                {
-                  "id": "d38774f0-9e0b-415c-a2e0-ab636ab0c233",
-                  "x": 32,
-                  "y": 48,
-                  "sliceX": 56,
-                  "sliceY": 0,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 5,
-                  "priority": false
-                },
-                {
-                  "id": "99748b7b-3e8e-4761-bd53-a4161c4f80e4",
-                  "x": 32,
-                  "y": 32,
-                  "sliceX": 56,
-                  "sliceY": 16,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 5,
-                  "priority": false
-                },
-                {
-                  "id": "d852b503-a25f-4056-9495-2ef5b01f5454",
-                  "x": 32,
-                  "y": 16,
-                  "sliceX": 56,
-                  "sliceY": 32,
-                  "palette": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "objPalette": "OBP0",
-                  "paletteIndex": 5,
-                  "priority": false
-                },
-                {
-                  "id": "bbe276dd-f383-4652-8ecd-e03459f348ec",
-                  "x": 32,
-                  "y": 0,
-                  "sliceX": 56,
                   "sliceY": 48,
                   "palette": 0,
                   "flipX": false,
@@ -505,7 +453,7 @@
   "numTiles": 25,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
-  "canvasWidth": 64,
+  "canvasWidth": 56,
   "canvasHeight": 64,
   "boundsX": -33,
   "boundsY": -64,

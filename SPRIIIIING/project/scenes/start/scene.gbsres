@@ -37,7 +37,7 @@
         "option6": "",
         "option7": "",
         "option8": "",
-        "cancelOnB": true,
+        "cancelOnB": false,
         "layout": "dialogue"
       },
       "id": "76d35fb8-ce77-4219-86a5-75788c5a2642"

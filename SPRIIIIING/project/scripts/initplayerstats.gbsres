@@ -24,7 +24,8 @@
         "variable": "3",
         "value": {
           "type": "false"
-        }
+        },
+        "__collapse": true
       },
       "id": "2fe82b65-4c33-447a-8e30-2ec384e6a3c0"
     },
@@ -35,7 +36,8 @@
         "value": {
           "type": "number",
           "value": 0
-        }
+        },
+        "__collapse": true
       },
       "id": "7b0f379e-0fd1-4347-b5a0-c47333626238"
     },
@@ -46,7 +48,8 @@
         "value": {
           "type": "number",
           "value": 2
-        }
+        },
+        "__collapse": true
       },
       "id": "ea3662fd-9e8d-4ddc-b643-2729d19790a5"
     },

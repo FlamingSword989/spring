@@ -18,7 +18,15 @@
   "symbol": "actor_69",
   "script": [],
   "startScript": [],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ec69f053-de6a-4c7e-a2fe-717146ea5975"
+      },
+      "id": "4d2f0efc-b7ae-4263-9160-5b58decbd548"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

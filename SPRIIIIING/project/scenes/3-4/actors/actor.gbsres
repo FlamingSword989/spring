@@ -124,7 +124,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Young Traveller, beckon!\nYou have listened to \nthat old toadstool."
+                "Young Traveller, \nbeckon!\nYou have listened to \nthat old toadstool."
               ],
               "__section": "text",
               "avatarId": "",

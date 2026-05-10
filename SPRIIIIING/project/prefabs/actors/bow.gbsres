@@ -4,7 +4,7 @@
   "name": "Bow",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "730a666a-850f-469f-85bb-f39cb4383085",
+  "spriteSheetId": "545a69b2-9812-44c6-afbc-6d40e14e1ddf",
   "moveSpeed": 1,
   "animSpeed": 255,
   "paletteId": "",
@@ -14,16 +14,70 @@
   "prefabScriptOverrides": {},
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": "",
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "7",
         "value": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__collapse": true
       },
       "id": "bf3e6195-c0c8-4481-aeec-48967e6f2ed4",
       "children": {}
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "8",
+        "value": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": true
+      },
+      "id": "4e5800d5-a67d-4a38-aeae-4806219d7941"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "78ae0697-da81-4806-ac9a-ca44bd69a3c2",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": false
+      },
+      "id": "07ae8353-534c-4109-af10-5f21af325e0d"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -34,7 +88,15 @@
       "children": {}
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "29df9acc-9001-421a-89c0-2ac42f1453c7"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_ACTOR_SET_FRAME",

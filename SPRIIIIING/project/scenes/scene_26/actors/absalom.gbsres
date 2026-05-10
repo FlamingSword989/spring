@@ -16,7 +16,15 @@
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
   "symbol": "actor_117",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "ec69f053-de6a-4c7e-a2fe-717146ea5975"
+      },
+      "id": "13741fcd-3be8-48af-9f70-13e005bb38a3"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_SET_VALUE",
@@ -24,7 +32,7 @@
         "variable": "L1",
         "value": {
           "type": "number",
-          "value": 5
+          "value": 7
         }
       },
       "id": "b8408c02-0416-4bb5-b94e-2998767d46dc"
@@ -677,15 +685,7 @@
       "id": "e6822ebc-8544-4d28-9b33-273663dfc8e5"
     }
   ],
-  "hit1Script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "ec69f053-de6a-4c7e-a2fe-717146ea5975"
-      },
-      "id": "30db3fdf-ee40-48f0-b5d5-319b6feaa3ab"
-    }
-  ],
+  "hit1Script": [],
   "hit2Script": [
     {
       "command": "EVENT_IF",
@@ -863,7 +863,7 @@
                       {
                         "command": "EVENT_ACTOR_ACTIVATE",
                         "args": {
-                          "actorId": "debbe798-e6ed-4e8c-af4e-9f6e2e91fc37"
+                          "actorId": "bd80936c-29fe-4e05-ba28-cdab6198880f"
                         },
                         "id": "d76e0c6a-2b69-44fc-b658-3218ee4a2928"
                       },

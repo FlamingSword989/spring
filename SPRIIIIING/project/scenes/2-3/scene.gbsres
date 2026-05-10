@@ -18,14 +18,14 @@
   "y": 506.00782087246694,
   "script": [],
   "playerHit1Script": [],
-  "playerHit2Script": [
+  "playerHit2Script": [],
+  "playerHit3Script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "ec69f053-de6a-4c7e-a2fe-717146ea5975"
       },
-      "id": "daa4468b-ad61-4d60-9fae-8734fb0ba84d"
+      "id": "9d27e0aa-1579-4b58-adb0-1061f8fdf991"
     }
-  ],
-  "playerHit3Script": []
+  ]
 }
