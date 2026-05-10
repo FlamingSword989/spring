@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "965316c1-b5eb-4c28-b0f5-88c2763b9138",
+  "id": "584a5b4b-c003-475e-b8cf-05b655b7dbb2",
   "name": "WeaponUI",
   "frame": 0,
   "animate": false,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_90",
+  "symbol": "actor_121",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 3,
-  "y": 3,
-  "_index": 6
+  "x": 7,
+  "y": 9,
+  "_index": 3
 }

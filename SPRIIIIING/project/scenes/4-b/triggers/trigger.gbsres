@@ -17,10 +17,11 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "2"
           },
           "valueB": {
-            "type": "false"
+            "type": "number",
+            "value": 0
           }
         },
         "__collapseElse": true,
@@ -81,9 +82,10 @@
           {
             "command": "EVENT_SET_VALUE",
             "args": {
-              "variable": "5",
+              "variable": "2",
               "value": {
-                "type": "true"
+                "type": "number",
+                "value": 0
               }
             },
             "id": "1553b917-6362-4ebc-9ece-0b584b34a562"

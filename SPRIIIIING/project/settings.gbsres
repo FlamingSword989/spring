@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "0b831d0b-5b19-4aec-9f32-b9001a1400e8",
-  "startX": 14,
-  "startY": 11,
+  "startSceneId": "0e45228b-b133-4216-b1ae-a380d040879b",
+  "startX": 24,
+  "startY": 14,
   "startMoveSpeed": 1,
   "startAnimSpeed": 7,
   "startDirection": "down",
@@ -27,7 +27,7 @@
     "953de084-4d6c-4ca7-a9e4-468d5d4fc69e",
     "4eccda16-2a8f-419b-9303-107c49949735",
     "b7f6968a-e3c1-44f6-b2c1-9b2179a87ee6",
-    "default-sprite",
+    "0b40d5cb-ba38-4eab-bf05-a11de39080b7",
     "default-sprite",
     "default-sprite"
   ],

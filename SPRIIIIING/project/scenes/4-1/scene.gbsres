@@ -2,12 +2,15 @@
   "_resourceType": "scene",
   "id": "2f7de69d-33fc-49b3-b5a0-b004efc28993",
   "_index": 18,
-  "name": "Scene 17",
-  "backgroundId": "ff55d799-3408-41dc-a474-22f8b5788ce2",
-  "tilesetId": "",
+  "type": "PLATFORM",
+  "name": "4-1",
+  "symbol": "scene_18",
+  "x": 424,
+  "y": 944,
   "width": 50,
   "height": 25,
-  "type": "PLATFORM",
+  "backgroundId": "ff55d799-3408-41dc-a474-22f8b5788ce2",
+  "tilesetId": "",
   "colorModeOverride": "none",
   "paletteIds": [
     "53afe1fe-b4ea-4116-b7eb-44a05c17e962",
@@ -20,16 +23,12 @@
     "default-ui"
   ],
   "spritePaletteIds": [
-    null,
-    null,
-    null,
+    "",
+    "",
+    "",
     ""
   ],
-  "collisions": "002cf+0f8+002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!0017+0f32+0064+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_18",
-  "x": 424,
-  "y": 952,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [
@@ -49,5 +48,6 @@
       },
       "id": "3dbd9eee-4d26-4564-bb00-b963b01b06d8"
     }
-  ]
+  ],
+  "collisions": "002cf+0f8+002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!002a+0f!006+0f!0017+0f32+0064+"
 }

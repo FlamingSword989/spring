@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "197e9adb-aa60-4652-aed6-3d05982195ff",
+  "name": "shroomboss",
+  "symbol": "bg_shroomboss",
+  "tileColors": "",
+  "filename": "shroomboss.png",
+  "width": 50,
+  "height": 25,
+  "imageWidth": 400,
+  "imageHeight": 200,
+  "autoColor": true
+}

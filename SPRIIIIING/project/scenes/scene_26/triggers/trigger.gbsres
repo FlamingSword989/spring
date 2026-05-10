@@ -3,8 +3,8 @@
   "id": "2fbcde5c-ef71-42a7-a095-b74a1d7a865b",
   "name": "",
   "prefabId": "",
-  "x": 74,
-  "y": 0,
+  "x": 49,
+  "y": 2,
   "symbol": "trigger_36",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -17,7 +17,8 @@
         "value": {
           "type": "number",
           "value": 3
-        }
+        },
+        "__collapse": false
       },
       "id": "43ff413a-fcf6-43c0-9acd-bc1f4bfb1d50"
     },
@@ -40,5 +41,5 @@
     }
   ],
   "leaveScript": [],
-  "_index": 1
+  "_index": 0
 }

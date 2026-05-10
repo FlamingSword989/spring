@@ -46,10 +46,11 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "2"
           },
           "valueB": {
-            "type": "true"
+            "type": "number",
+            "value": 1
           }
         },
         "__collapseElse": false,
@@ -225,10 +226,11 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "2"
           },
           "valueB": {
-            "type": "true"
+            "type": "number",
+            "value": 0
           }
         },
         "__collapseElse": true,
@@ -336,7 +338,7 @@
                         "value": 0
                       }
                     },
-                    "__collapseElse": true,
+                    "__collapseElse": false,
                     "__collapse": false
                   },
                   "children": {

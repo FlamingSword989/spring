@@ -27,11 +27,6 @@
       "symbol": "var_quest"
     },
     {
-      "id": "5",
-      "name": "FinalFightStarrt",
-      "symbol": "var_finalfightstarrt"
-    },
-    {
       "id": "6",
       "name": "ATKcd",
       "symbol": "var_atkcd"
@@ -42,6 +37,11 @@
       "symbol": "var_arrow"
     },
     {
+      "id": "8",
+      "name": "Checkpoint",
+      "symbol": "var_checkpoint"
+    },
+    {
       "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L0",
       "name": "cd",
       "symbol": "var_cd"
@@ -50,11 +50,6 @@
       "id": "709e63cb-738c-4d8e-82e6-a46cbd20c9fd__L1",
       "name": "hp",
       "symbol": "var_hp_0"
-    },
-    {
-      "id": "8",
-      "name": "Checkpoint",
-      "symbol": "var_checkpoint"
     },
     {
       "id": "0b831d0b-5b19-4aec-9f32-b9001a1400e8__L0",
