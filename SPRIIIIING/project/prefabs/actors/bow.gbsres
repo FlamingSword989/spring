@@ -21,7 +21,10 @@
     {
       "command": "EVENT_TEXT",
       "args": {
-        "text": "",
+        "text": [
+          "You got a bow!",
+          "Press Select to switch\nback to sword"
+        ],
         "__section": "text",
         "avatarId": "",
         "minHeight": 4,
@@ -40,6 +43,13 @@
         "closeDelayFrames": 30
       },
       "id": "2f74b520-e0cd-4d6b-bfb0-3c43508c39d7"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "755d3e8b-dba3-456e-8ed4-f0b1430d6da7"
+      },
+      "id": "01be9d81-233e-4271-95b7-d6297cd57979"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -78,7 +88,7 @@
           "type": "number",
           "value": 7
         },
-        "direction": "",
+        "direction": "right",
         "fadeSpeed": "2",
         "__collapse": false
       },

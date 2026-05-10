@@ -1,11 +1,11 @@
 {
   "_resourceType": "actor",
-  "id": "debbe798-e6ed-4e8c-af4e-9f6e2e91fc37",
-  "name": "enable wall jump",
+  "id": "7a5c2db1-2420-4e25-b902-de42eb189a31",
+  "name": "BounceShroom",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-  "prefabId": "a322d18e-d79d-48cf-a2a2-e92632442f55",
+  "prefabId": "72461ab1-74e6-4a38-9e55-d59cb892c5a7",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
@@ -15,7 +15,7 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_13",
+  "symbol": "actor_98",
   "script": [],
   "startScript": [],
   "updateScript": [],
@@ -23,7 +23,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 63,
-  "y": 22,
-  "_index": 3
+  "x": 33,
+  "y": 17,
+  "_index": 7
 }

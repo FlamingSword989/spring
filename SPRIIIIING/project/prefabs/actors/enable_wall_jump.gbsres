@@ -38,7 +38,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Wall Jump Unlocked!"
+          "Air attack unlocked!",
+          "Health restored!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -58,6 +59,13 @@
         "closeDelayFrames": 30
       },
       "id": "bd9bce1e-b0ab-4fab-befc-44bc8b0f23c1"
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "755d3e8b-dba3-456e-8ed4-f0b1430d6da7"
+      },
+      "id": "5031092d-0fe9-47c3-8878-a6f45e4f0f94"
     },
     {
       "command": "EVENT_SET_VALUE",

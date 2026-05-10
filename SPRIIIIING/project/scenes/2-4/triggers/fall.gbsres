@@ -1,0 +1,29 @@
+{
+  "_resourceType": "trigger",
+  "id": "0c9dea45-e232-43e7-8867-772bd98f3af2",
+  "name": "fall",
+  "prefabId": "4ada96d9-7667-4430-9dd8-e1b231769dc6",
+  "x": 0,
+  "y": 24,
+  "symbol": "trigger_44",
+  "prefabScriptOverrides": {
+    "04fc2534-0e64-4714-9bfb-a8d40ca36acb": {
+      "id": "04fc2534-0e64-4714-9bfb-a8d40ca36acb",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        }
+      }
+    }
+  },
+  "width": 42,
+  "height": 1,
+  "script": [],
+  "leaveScript": [],
+  "_index": 2
+}
