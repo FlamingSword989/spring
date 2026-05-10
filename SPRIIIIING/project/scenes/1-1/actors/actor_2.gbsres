@@ -140,7 +140,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "460667d4-933c-4289-9801-1d81c8bc8d6f"
           },
@@ -148,7 +148,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "*Ahem*\nThe forest was a \npeaceful place, home to \na great kingdom of\nrabbits."
+                "*Ahem*\nThe meadow was a \npeaceful place, home to \na great kingdom of\nrabbits."
               ],
               "__section": "text",
               "avatarId": "",
@@ -166,7 +166,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "ee10de25-6797-4111-897b-63c9261cd701"
           },
@@ -192,7 +192,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "6bd3b55a-6c8b-4891-bd85-55ccaa4947ee"
           },
@@ -218,7 +218,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "4efb6609-b1ad-4cfc-96d2-fe8cc0a4284e"
           },
@@ -244,7 +244,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "4656a248-2ee2-4c18-bff7-9f51b6882bc7"
           },
@@ -252,7 +252,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "And in the ensuing \nchaos, a great \nsorceress,named \nMÁTHAIR SHUIGH,\ntook over the forest."
+                "And in the ensuing \nchaos, a great \nsorceress, named \nMÁTHAIR SHUIGH,\ntook over the meadow."
               ],
               "__section": "text",
               "avatarId": "",
@@ -270,7 +270,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "35a08bf1-6c34-4a86-b4a1-805e6e899f90"
           },
@@ -296,7 +296,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "63bc864f-3ab8-4d76-9c10-e3a7ec29354c"
           },
@@ -304,7 +304,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "One lone rabbit set off\nto reclaim the forest.\n...."
+                "One lone rabbit set off\nto reclaim the meadow.\n...."
               ],
               "__section": "text",
               "avatarId": "",
@@ -322,7 +322,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "47c7699c-c8c5-4ad6-a8b0-cbc6b61084e2"
           },
@@ -348,7 +348,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "7c05e728-6048-4e54-9d1e-b613f73ea983"
           }

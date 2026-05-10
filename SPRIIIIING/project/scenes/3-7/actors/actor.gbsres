@@ -255,31 +255,6 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I can have you \ndestroyed in an instant\nif you do not take to my\nbidding."
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "f7e943fa-4ffa-4567-81c4-cc5f1b063fd4"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
           " And besides,\n this sort of thing is in\n your own interest..."
         ],
         "__section": "text",

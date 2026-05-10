@@ -23,7 +23,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Shuigh: You consrned\ntoadstool! I shall\nburn you to a crisp!\nThis forest is mine!"
+          "Shuigh: You consarned\ntoadstool! I shall\nburn you to a crisp!\nThis meadow is mine!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -178,7 +178,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 22,
+  "x": 23,
   "y": 17,
   "_index": 1
 }
