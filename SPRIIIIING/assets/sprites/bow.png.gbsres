@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "545a69b2-9812-44c6-afbc-6d40e14e1ddf",
+  "name": "bow",
+  "symbol": "sprite_bow",
+  "states": [
+    {
+      "id": "c64b4e44-b01e-4694-8958-b17b0201867a",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "5c7e8c8b-dc84-42c8-a595-7fdbdc4ac804",
+          "frames": [
+            {
+              "id": "2a9ceced-06e1-45db-8f96-bf1dc786522e",
+              "tiles": [
+                {
+                  "id": "fe428b92-609f-4638-85d3-818e04b3f357",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "c05837f7-59be-4fb2-b936-d75fcc36b716",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f359319b-6747-44c2-bca3-d1e00e2cc9da",
+          "frames": [
+            {
+              "id": "3447094e-bed6-47ee-b907-151c1aead623",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4b0c891-a95a-4c7f-893b-b4178bd9b831",
+          "frames": [
+            {
+              "id": "0a50ec5c-7fe3-4001-8c33-13a7a339af14",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "32b7a21b-8fda-4cb2-ba14-14b95132992b",
+          "frames": [
+            {
+              "id": "af70cfaa-e44e-4689-bd23-9b297f298d26",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "4c169b4e-879a-4538-94c6-62e9807893eb",
+          "frames": [
+            {
+              "id": "ddc38881-b9ba-42e5-855e-83716f72bffd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0ab64d77-1381-4781-a023-2361d9f0d373",
+          "frames": [
+            {
+              "id": "acbb4c27-fd20-42b7-a8ab-c102bf7a6d5b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "3e2ee5aa-4ab6-47ec-99e8-73289f80ae28",
+          "frames": [
+            {
+              "id": "3dba1ef5-47fd-416d-b45c-439744de684a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "597dbbe2-0f7c-4b91-9f78-883255a4dd27",
+          "frames": [
+            {
+              "id": "e6ac9639-ee52-4c9a-aded-fed8916721b7",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 2,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "bow.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "52bab71bb3c488543f8e2d3252fa7df875b19a3a"
+}

@@ -32,7 +32,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Give me all of your food!"
+                "Absalom:\nGive me all of your food!"
               ],
               "__section": "text",
               "avatarId": "",
