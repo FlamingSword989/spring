@@ -54,7 +54,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -382,7 +382,7 @@
                           "sceneId": "f4dc7892-dca8-4f08-9cdb-6c0b33b152cf",
                           "x": {
                             "type": "number",
-                            "value": 19
+                            "value": 27
                           },
                           "y": {
                             "type": "number",
