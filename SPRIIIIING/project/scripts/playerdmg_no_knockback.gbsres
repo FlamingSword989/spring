@@ -57,7 +57,7 @@
               "duration": 0.2,
               "wait": false,
               "effect": 0,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "6bf3916e-52af-47f0-9631-204ab0f8c795",
             "children": {}
