@@ -100,7 +100,8 @@
       "args": {
         "variable": "L5",
         "trueText": "Of course!",
-        "falseText": "No time for talk!"
+        "falseText": "No time for talk!",
+        "__collapse": true
       },
       "id": "77ffccb8-8d59-4baa-a239-3d7b15676606"
     },
@@ -117,7 +118,8 @@
             "type": "true"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -330,57 +332,155 @@
             "id": "47c7699c-c8c5-4ad6-a8b0-cbc6b61084e2"
           },
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF",
             "args": {
-              "text": [
-                "Welp....\nThat's as far as we've\ngotten!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30,
-              "__collapse": false
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "5"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false
             },
-            "id": "7c05e728-6048-4e54-9d1e-b613f73ea983"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Then his majestic self\nDecided to handicap\nhimself for an extra\nchallenge!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "788e95dd-f8f6-4f86-96fe-2f4342f662b1"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Welp....\nThat's as far as we've\ngotten!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "7c05e728-6048-4e54-9d1e-b613f73ea983"
+                }
+              ]
+            },
+            "id": "357484ac-266f-489f-9e88-8fc4b5b4bd76"
           }
         ],
         "false": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_IF",
             "args": {
-              "text": [
-                "Well that's not very\nastute of you!"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "5"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
             },
-            "id": "fbf116e1-9655-4825-a168-deee55268339"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "You sure are one pro\nGamer!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "e89bcca6-cae1-4a80-adc8-7ae259a9c214"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Well that's not very\nastute of you!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "fbf116e1-9655-4825-a168-deee55268339"
+                }
+              ]
+            },
+            "id": "f325f9c3-a348-4723-84de-9845ebc8d819"
           }
         ]
       },

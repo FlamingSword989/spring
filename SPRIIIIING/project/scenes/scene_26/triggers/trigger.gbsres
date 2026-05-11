@@ -39,7 +39,12 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Absalom:\nGive me all of your food!"
+                "Absalom: Our great \nqueen shall burn away \nthis fungal waste!",
+                "And you dare try to \ndethrone her.",
+                "They will forever call me \na traitor, but it is you \nwho have betrayed",
+                "The future of this \ngreat kingdom!",
+                "I am Baron Absalom, \nand until you strike me \ndown",
+                "You shall not pass into \nthe sylvan pit where \nthis grand castle has\nsunk."
               ],
               "__section": "text",
               "avatarId": "",
