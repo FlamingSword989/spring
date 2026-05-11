@@ -375,6 +375,55 @@
         "closeDelayFrames": 30
       },
       "id": "01a0e578-72fe-4fb5-8a19-7f8ce7b11911"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'll give you a cookie if\nyou do",
+                "I hear rabbits like\ncookies",
+                "Especially ones with\nChalk/Lead-Chips"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f05b91c6-9362-4649-bcda-2c851c7f527e"
+          }
+        ],
+        "false": []
+      },
+      "id": "c946eeb1-f688-4372-878f-0d2ab3920408"
     }
   ],
   "startScript": [],
